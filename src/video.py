@@ -10,10 +10,45 @@ def printj(dict_to_print: dict) -> None:
     print(json.dumps(dict_to_print, indent=2, ensure_ascii=False))
 
 
-class Video:
-
+class Videos():
     def __init__(self, id_video: str):
         self.__id_video: str = id_video
+        self.title = ''
+        self.like_count = 0
+        self.view_count = 0
+        self.url = ''
+
+    @property
+    def id_video(self):
+        return self.__id_video
+
+    @id_video.setter
+    def id_video(self, new_id):
+        self.__id_video = new_id
+        # self.load_video_yt()
+        # pass
+
+    def __str__(self):
+        return f'{self.title}'
+
+    def my_repr(self):
+        return f'id видео: {self.id_video}\n' \
+               f'название видео: {self.title}\n' \
+               f'ссылка на канал: {self.url}\n' \
+               f'количество лайков: {self.like_count}\n' \
+               f'общее количество просмотров: {self.view_count}\n'
+
+    def __add__(self, other):
+        if isinstance(self, Videos) and isinstance(other, Videos):
+            temp_videos = Videos('')
+            temp_videos.like_count = int(self.like_count) + int(other.like_count)
+            temp_videos.view_count = int(self.view_count) + int(other.view_count)
+            return temp_videos
+
+class Video(Videos):
+
+    def __init__(self, id_video: str):
+        super().__init__(id_video)
         self.load_video_yt()
 
     def load_video_yt(self):
@@ -26,7 +61,7 @@ class Video:
         # или https: // youtu.be / gaoc9MPZ4bw
         #
         video_response = youtube.videos().list(part='snippet,statistics,contentDetails,topicDetails',
-                                               id=self.__id_video).execute()
+                                               id=self.id_video).execute()
         # printj(video_response)
 
         self.title: str = video_response['items'][0]['snippet']['title']
@@ -34,45 +69,20 @@ class Video:
         self.view_count: int = video_response['items'][0]['statistics']['viewCount']
         self.like_count: int = video_response['items'][0]['statistics']['likeCount']
 
-    @property
-    def id_video(self):
-        return self.__id_video
-
-    @id_video.setter
-    def id_video(self, new_id):
-        # self.__id_video = new_id
-        # self.load_video_yt()
-        pass
-
-    def __str__(self):
-        return f'{self.title}'
 
     def __repr__(self):
         return f"Video('{self.id_video}')"
 
     def my_repr(self):
-        return f'id видео: {self.id_video}\n' \
-               f'название видео: {self.title}\n' \
-               f'ссылка на канал: {self.url}\n' \
-               f'количество лайков: {self.like_count}\n' \
-               f'общее количество просмотров: {self.view_count}'
+        return f'{super().my_repr()}'
 
 
-class PLVideo:
+class PLVideo(Videos):
 
     def __init__(self, id_video: str, id_playlist: str):
-        self.__id_video = id_video
+        super().__init__(id_video)
         self.__id_playlist = id_playlist
         self.load_video_yt()
-
-    @property
-    def id_video(self):
-        return self.__id_video
-
-    @id_video.setter
-    def id_video(self, new_id: str):
-        pass
-
 
     @property
     def id_playlist(self):
@@ -86,16 +96,9 @@ class PLVideo:
     def __repr__(self):
         return f"PLVideo('{self.id_video}', '{self.id_playlist}')"
 
-    def __str__(self):
-        return f'{self.title}'
-
     def my_repr(self):
-        return f'id видео: {self.id_video}\n' \
-               f'id плэйлиста: {self.id_playlist}\n' \
-               f'название видео: {self.title}\n' \
-               f'ссылка на канал: {self.url}\n' \
-               f'количество лайков: {self.like_count}\n' \
-               f'общее количество просмотров: {self.view_count}'
+        return f'{super().my_repr()}' \
+               f'id плэйлиста: {self.id_playlist}'
 
     def load_video_yt(self):
         youtube = build('youtube', 'v3', developerKey=YT_API_KEY)
@@ -135,10 +138,14 @@ class PLVideo:
 # print(video2)
 # print(video2.__repr__())
 # print(video2.my_repr())
-
+#
 # video1 = Video('AWX4JnAnjBE')
 # print(video1)
 # print(video1.__repr__())
 # print(video1.my_repr())
 # video1.id_video = 'AWX4JnAnjBE-001'
 # print(video1)
+#
+# temp_video = video1 + video2
+# print(temp_video.view_count)
+# print(temp_video.like_count)

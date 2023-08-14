@@ -12,3 +12,9 @@ if __name__ == '__main__':
         print(f'\033[33m{temp_video.__repr__()}\033[39m')
         print(f'\033[32m{temp_video}\033[39m')
         print(temp_video.my_repr())
+
+    print('\n\033[32mОбщее количество просмотров у каналов\033[39m:')
+    print(f'Канал {video1.title}: \033[32m{video1.view_count}\033[39m')
+    print(f'Канал {video2.title}: \033[32m{video2.view_count}\033[39m')
+    print()
+    print(f'Сумма просмотров обоих каналов: \033[32m{moscowpython + highload}\033[39m')  #
