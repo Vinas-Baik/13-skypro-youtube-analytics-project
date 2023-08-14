@@ -11,13 +11,13 @@ if __name__ == '__main__':
     assert str(video1) == 'GIL в Python: зачем он нужен и как с этим жить'
     assert str(video2) == 'MoscowPython Meetup 78 - вступление'
 
-    for temp_video in (video1, video2):
+    for t_video in (video1, video2):
         print()
-        print(f'\033[33m{temp_video.__repr__()}\033[39m')
-        print(f'\033[32m{temp_video}\033[39m')
-        print(temp_video.my_repr())
+        print(f'\033[33m{t_video.__repr__()}\033[39m')
+        print(f'\033[32m{t_video}\033[39m')
+        print(t_video.my_repr().replace(': ', ':\033[32m ').replace('\n', '\033[39m\n'))
 
-    temp_video = video1 + video2
+    t_video = video1 + video2
     print('\n\033[32mОбщее количество просмотров у каналов\033[39m:')
     print(f'Канал \033[33m{video1.title}: '
           f'\033[32m{nice_number_output(video1.view_count)}\033[39m просмотров')
@@ -25,7 +25,7 @@ if __name__ == '__main__':
           f'\033[32m{nice_number_output(video2.view_count)}\033[39m просмотров')
 
     print(f'\nСумма просмотров обоих каналов: '
-          f'\033[32m{nice_number_output(temp_video.view_count)}\033[39m')  #
+          f'\033[32m{nice_number_output(t_video.view_count)}\033[39m')  #
 
     print('\n\033[32mОбщее количество лайков у каналов\033[39m:')
     print(f'Канал \033[33m{video1.title}: '
@@ -34,7 +34,7 @@ if __name__ == '__main__':
           f'\033[32m{nice_number_output(video2.like_count)}\033[39m лайков')
 
     print(f'\nСумма лайков обоих каналов: '
-          f'\033[32m{nice_number_output(temp_video.like_count)}\033[39m')  #
+          f'\033[32m{nice_number_output(t_video.like_count)}\033[39m')  #
 
     #
     # КОНЕЦ программы
