@@ -44,6 +44,7 @@ class Videos():
             temp_videos.like_count = int(self.like_count) + int(other.like_count)
             temp_videos.view_count = int(self.view_count) + int(other.view_count)
             return temp_videos
+        return None
 
 class Video(Videos):
 
