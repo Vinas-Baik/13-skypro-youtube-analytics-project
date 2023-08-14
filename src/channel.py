@@ -1,22 +1,10 @@
 import json
 import os
 from googleapiclient.discovery import build
-
+from src.utils import full_path_name_file
 
 YT_API_KEY: str = os.getenv('YT_API_KEY')
 # JSON_FILE: str = '..\src\yt_channel.json'
-
-def full_path_name_file(name_file):
-    """
-    формируем полный путь до файла
-    :param name_file: имя файла с указанием подпапки
-    :return: полный пусть в UNIX системы
-    """
-    # return os.getcwd() + '\\' + name_file
-    # return os.path.join(*name_file.replace('\\','/').split('/'))
-    # cur_path = os.path.dirname(__file__)
-    return os.path.realpath(name_file)
-
 
 class Channel:
     """Класс для ютуб-канала"""
