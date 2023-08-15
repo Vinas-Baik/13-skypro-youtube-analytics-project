@@ -64,11 +64,11 @@ class Video(Videos):
         video_response = youtube.videos().list(part='snippet,statistics,contentDetails,topicDetails',
                                                id=self.id_video).execute()
         # printj(video_response)
-
-        self.title: str = video_response['items'][0]['snippet']['title']
-        self.url: str = 'https://www.youtube.com/watch?v=' + video_response['items'][0]['id']
-        self.view_count: int = video_response['items'][0]['statistics']['viewCount']
-        self.like_count: int = video_response['items'][0]['statistics']['likeCount']
+        response_video = video_response['items'][0]
+        self.title: str = response_video['snippet']['title']
+        self.url: str = 'https://www.youtube.com/watch?v=' + response_video['id']
+        self.view_count: int = response_video['statistics']['viewCount']
+        self.like_count: int = response_video['statistics']['likeCount']
 
 
     def __repr__(self):
@@ -126,12 +126,13 @@ class PLVideo(Videos):
         video_response = youtube.videos().list(part='snippet,statistics,contentDetails,topicDetails',
                                                id=video_ids[0]).execute()
 
+        response_video = video_response['items'][0]
         # printj(video_response)
 
-        self.title: str = video_response['items'][0]['snippet']['title']
-        self.url: str = 'https://www.youtube.com/watch?v=' + video_response['items'][0]['id']
-        self.view_count: int = video_response['items'][0]['statistics']['viewCount']
-        self.like_count: int = video_response['items'][0]['statistics']['likeCount']
+        self.title: str = response_video['snippet']['title']
+        self.url: str = 'https://www.youtube.com/watch?v=' + response_video['id']
+        self.view_count: int = response_video['statistics']['viewCount']
+        self.like_count: int = response_video['statistics']['likeCount']
 
 
 
