@@ -134,7 +134,66 @@ class PLVideo(Videos):
         self.view_count: int = response_video['statistics']['viewCount']
         self.like_count: int = response_video['statistics']['likeCount']
 
+class PlayList():
 
+    def __init__(self, id_playlist: str):
+        self.__id_playlist = id_playlist
+        self.video_pls = []
+        self.load_video_yt()
+
+    @property
+    def id_playlist(self):
+        return self.__id_playlist
+
+    @id_playlist.setter
+    def id_playlist(self, new_id: str):
+        pass
+
+    def load_video_yt(self):
+        youtube = build('youtube', 'v3', developerKey=YT_API_KEY)
+        # self.youtube_str = str(youtube)
+        #
+        # получить данные по видеороликам в плейлисте
+        # docs: https://developers.google.com/youtube/v3/docs/playlistItems/list
+        #
+        # получить id плейлиста можно из браузера, например
+        # https://www.youtube.com/playlist?list=PLH-XmS0lSi_zdhYvcwUfv0N88LQRt6UZn
+        # или из ответа API: см. playlists выше
+        #
+        playlist_videos = youtube.playlistItems().list(playlistId=self.id_playlist,
+                                                       part='contentDetails,snippet',
+                                                       maxResults=100,
+                                                       ).execute()
+        # printj(playlist_videos)
+        self.url = 'https://www.youtube.com/playlist?list='+ \
+                   playlist_videos['items'][0]['snippet']['playlistId']
+        self.title = playlist_videos['items'][0]['snippet']['channelTitle']
+
+
+        # получить все id видеороликов из плейлиста
+        video_ids: list[str] = [video['contentDetails']['videoId'] for video in
+                                playlist_videos['items']
+                                if 'videoPublishedAt' in video['contentDetails']]
+        # print(video_ids)
+        video_response = youtube.videos().list(part='contentDetails,statistics',
+                                               id=','.join(video_ids)).execute()
+        for t_video in video_response['items']:
+            print(t_video)
+        # for temp_video in video_ids:
+        #     self.video_pls.append(Video(temp_video))
+
+
+    def my_repr(self):
+        return f'id плейлиста: {self.id_playlist}\n' \
+               f'название плейлиста: {self.title}\n' \
+               f'ссылка на плейлист: {self.url}\n' \
+               f'количество роликов в плейлисте: {self.__len__()}\n'
+
+    def __len__(self):
+        return len(self.video_pls)
+
+    def total_duration(self):
+        pass
 
 # video2 = PLVideo('4fObz_qw9u4', 'PLv_zOGKKxVph_8g2Mqc3LMhj0M_BfasbC')
 # print(video2)
@@ -151,3 +210,8 @@ class PLVideo(Videos):
 # temp_video = video1 + video2
 # print(temp_video.view_count)
 # print(temp_video.like_count)
+
+pl = PlayList('PLZ_AMw_dAdXffKmUzSu7Z3vkqP4Sz9qL5')
+print(pl.my_repr())
+# for i in pl.video_pls:
+#     print(i)
