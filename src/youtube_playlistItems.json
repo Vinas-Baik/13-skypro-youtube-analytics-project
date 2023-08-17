@@ -1,0 +1,226 @@
+{
+  "kind": "youtube#playlistItemListResponse",
+  "etag": "5N2KDhD0LoAuIWdvqP-V-6TI3Dw",
+  "items": [
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "HTli6c0E2GE5sYlEnReSBdxJkFM",
+      "id": "UEx2X3pPR0tLeFZwai1uMnFMa0VNMkhqOTZMTzZ1cWdRdy41NkI0NEY2RDEwNTU3Q0M2",
+      "snippet": {
+        "publishedAt": "2023-03-30T15:13:22Z",
+        "channelId": "UC-OVMPlMA3-YCIeg4z5z23A",
+        "title": "Moscow Python Meetup №81. Вступление.",
+        "description": "Вступление на  Moscow Python №81\n\nMoscowPython: http://moscowpython.ru\nКурсы Learn Python:  http://learn.python.ru\nMoscow Python Podcast: http://podcast.python.ru\nЗаявки на доклады: https://bit.ly/mp-speaker",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/feg3DYywNys/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/feg3DYywNys/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/feg3DYywNys/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/feg3DYywNys/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/feg3DYywNys/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "MoscowPython",
+        "playlistId": "PLv_zOGKKxVpj-n2qLkEM2Hj96LO6uqgQw",
+        "position": 0,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "feg3DYywNys"
+        },
+        "videoOwnerChannelTitle": "MoscowPython",
+        "videoOwnerChannelId": "UC-OVMPlMA3-YCIeg4z5z23A"
+      },
+      "contentDetails": {
+        "videoId": "feg3DYywNys",
+        "videoPublishedAt": "2023-04-03T14:24:45Z"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "RIkvPbAp-VYc3VHP7t2-YWRmDrE",
+      "id": "UEx2X3pPR0tLeFZwai1uMnFMa0VNMkhqOTZMTzZ1cWdRdy4yODlGNEE0NkRGMEEzMEQy",
+      "snippet": {
+        "publishedAt": "2023-03-30T16:11:15Z",
+        "channelId": "UC-OVMPlMA3-YCIeg4z5z23A",
+        "title": "Moscow Python Meetup №81. Максим Безруков. Кто такой syslog, зачем читать RFC-* и причём тут Django",
+        "description": "Максим Безруков (Ред Софт, middle/senior developer).\nКто такой syslog, его имлементации и зоопарк RFC.\nКак добавить в существующую систему логирования Django поддержку syslog.\nФорматы, как их готовить и как документировать этот хаос. И кстати, зачем?\n\nСлайды: https://speakerdeck.com/moscowdjango/kto-takoi-syslog-zachiem-chitat-rfc-star-i-prichiom-tut-django\n\nMoscowPython: http://moscowpython.ru\nКурсы Learn Python:  http://learn.python.ru\nMoscow Python Podcast: http://podcast.python.ru\nЗаявки на доклады: https://bit.ly/mp-speaker",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/MtWXwMCAApY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/MtWXwMCAApY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/MtWXwMCAApY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/MtWXwMCAApY/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/MtWXwMCAApY/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "MoscowPython",
+        "playlistId": "PLv_zOGKKxVpj-n2qLkEM2Hj96LO6uqgQw",
+        "position": 1,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "MtWXwMCAApY"
+        },
+        "videoOwnerChannelTitle": "MoscowPython",
+        "videoOwnerChannelId": "UC-OVMPlMA3-YCIeg4z5z23A"
+      },
+      "contentDetails": {
+        "videoId": "MtWXwMCAApY",
+        "videoPublishedAt": "2023-04-03T14:24:45Z"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "SwzsjZsgmJTHEMsePlZAS5a9nC0",
+      "id": "UEx2X3pPR0tLeFZwai1uMnFMa0VNMkhqOTZMTzZ1cWdRdy4wMTcyMDhGQUE4NTIzM0Y5",
+      "snippet": {
+        "publishedAt": "2023-03-30T16:38:13Z",
+        "channelId": "UC-OVMPlMA3-YCIeg4z5z23A",
+        "title": "Moscow Python Meetup №81. Николай Марков.  Контейнерные змеи",
+        "description": "Николай Марков (Principal Architect в Aligned Research Group).\nКажется, мы уже все привыкли работать с контейнерами, но до сих пор у текущих имплементаций контейнерных рантаймов был фатальный недостаток — они написаны не на Python. Попробуем это исправить?\n\nСлайды: https://moscowpython.ru/meetup/81/container-snakes/\n\nMoscowPython: http://moscowpython.ru\nКурсы Learn Python:  http://learn.python.ru\nMoscow Python Podcast: http://podcast.python.ru\nЗаявки на доклады: https://bit.ly/mp-speaker",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/nApYYXYL9qA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/nApYYXYL9qA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/nApYYXYL9qA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/nApYYXYL9qA/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/nApYYXYL9qA/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "MoscowPython",
+        "playlistId": "PLv_zOGKKxVpj-n2qLkEM2Hj96LO6uqgQw",
+        "position": 2,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "nApYYXYL9qA"
+        },
+        "videoOwnerChannelTitle": "MoscowPython",
+        "videoOwnerChannelId": "UC-OVMPlMA3-YCIeg4z5z23A"
+      },
+      "contentDetails": {
+        "videoId": "nApYYXYL9qA",
+        "videoPublishedAt": "2023-04-03T14:24:45Z"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "jwBH_oJq_XnRPIBT6UPy1Kpx_f4",
+      "id": "UEx2X3pPR0tLeFZwai1uMnFMa0VNMkhqOTZMTzZ1cWdRdy41MjE1MkI0OTQ2QzJGNzNG",
+      "snippet": {
+        "publishedAt": "2023-03-30T20:19:52Z",
+        "channelId": "UC-OVMPlMA3-YCIeg4z5z23A",
+        "title": "Moscow Python Meetup №81. Евгений Соколов. Лучший язык — это… или Пайтон против Суслика",
+        "description": "Евгений Соколов  (YADRO, тимлид команды разработки СХД Tatlin).\nPython и Golang в чем-то похожи — легкий синтаксис, много библиотек, простота прототипирования. Но в последние годы у Go появляется ряд преимуществ, которые сподвигли меня и моих коллег перейти на этот язык. Я расскажу, что выиграет разработчик и бизнес, выбрав Go. И какие проблемы вы получите взамен.\n\nСлайды: https://moscowpython.ru/meetup/81/python-or-go/\n\nMoscowPython: http://moscowpython.ru\nКурсы Learn Python:  http://learn.python.ru\nMoscow Python Podcast: http://podcast.python.ru\nЗаявки на доклады: https://bit.ly/mp-speaker",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/cUGyMzWQcGM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/cUGyMzWQcGM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/cUGyMzWQcGM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/cUGyMzWQcGM/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/cUGyMzWQcGM/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "MoscowPython",
+        "playlistId": "PLv_zOGKKxVpj-n2qLkEM2Hj96LO6uqgQw",
+        "position": 3,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "cUGyMzWQcGM"
+        },
+        "videoOwnerChannelTitle": "MoscowPython",
+        "videoOwnerChannelId": "UC-OVMPlMA3-YCIeg4z5z23A"
+      },
+      "contentDetails": {
+        "videoId": "cUGyMzWQcGM",
+        "videoPublishedAt": "2023-04-03T14:24:45Z"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 4,
+    "resultsPerPage": 50
+  }
+}
