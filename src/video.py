@@ -166,14 +166,29 @@ class PlayList():
         # https://www.youtube.com/playlist?list=PLH-XmS0lSi_zdhYvcwUfv0N88LQRt6UZn
         # или из ответа API: см. playlists выше
         #
+        channel = youtube.playlists().list(channelId='UC-OVMPlMA3-YCIeg4z5z23A',
+                                     part='contentDetails,snippet',
+                                     maxResults=50).execute()
+
+        # print(channel)
+
+        pl_ids: list[str] = [channel['snippet'] for channel in
+                                playlist_videos['items']
+                                if
+                                'videoPublishedAt' in video['contentDetails']]
+        # self.view_count: int = channel['items'][0]['statistics']['viewCount']
+        # self.subscriber_count: int = channel['items'][0]['statistics']['subscriberCount']
+        # self.video_count: int = channel['items'][0]['statistics']['videoCount']
+
+
         playlist_videos = youtube.playlistItems().list(playlistId=self.id_playlist,
                                                        part='snippet,contentDetails',
                                                        maxResults=100,
                                                        ).execute()
         # printj(playlist_videos)
+
         self.url = 'https://www.youtube.com/playlist?list='+self.id_playlist
         self.title = playlist_videos['items'][0]['snippet']['channelTitle']
-
 
         # получить все id видеороликов из плейлиста
         video_ids: list[str] = [video['contentDetails']['videoId'] for video in
@@ -184,24 +199,23 @@ class PlayList():
                                                id=','.join(video_ids)).execute()
         for t_video in video_response['items']:
             # print(t_video)
-            # YouTube video duration is in ISO 8601 format
+
             # isodate.parse_duration(t_video['contentDetails']['duration'] - команда
-            # которая преобразует длительность ролика из   ISO 8601 format в datatime.timedelta
+            # которая преобразует длительность ролика из ISO 8601 format в datatime.timedelta
             self.video_pls.append({'id': t_video['id'],
                                    'duration': isodate.parse_duration(t_video['contentDetails']['duration']),
                                    'viewCount': int(t_video['statistics']['viewCount']),
                                    'likeCount': int(t_video['statistics']['likeCount']),
                                    'commentCount': int(t_video['statistics']['commentCount']),
                                    'video_el': Video(t_video['id'])})
-        # for temp_video in video_ids:
-        #     self.video_pls.append(Video(temp_video))
 
 
     def my_repr(self):
         return f'id плейлиста: {self.id_playlist}\n' \
                f'название плейлиста: {self.title}\n' \
                f'ссылка на плейлист: {self.url}\n' \
-               f'количество роликов в плейлисте: {self.__len__()}\n'
+               f'количество роликов в плейлисте: {self.__len__()}\n' \
+
 
     def __len__(self):
         return len(self.video_pls)
@@ -247,3 +261,8 @@ class PlayList():
 # print(pl.show_best_video())
 # for i in pl.video_pls:
 #     print(i)
+
+# channel_id = 'UCwHL6WHUarjGfUM_586me8w'  # HighLoad Channel
+# youtube = build('youtube', 'v3', developerKey=YT_API_KEY)
+# channel = youtube.channels().list(id=channel_id, part='snippet,statistics').execute()
+# printj(channel)
