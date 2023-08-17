@@ -1,0 +1,2276 @@
+{
+  'kind': 'youtube#playlistListResponse',
+  'etag': 'gvy0XrES7wj4uJbL-9YdC7AwD4g',
+  'nextPageToken': 'CDIQAA',
+  'pageInfo': {
+    'totalResults': 85,
+    'resultsPerPage': 50
+  },
+  'items': [
+    {
+      'kind': 'youtube#playlist',
+      'etag': 'H9zTTA2QTh3k1_7w0gYM5XhumeU',
+      'id': 'PLv_zOGKKxVpjs20vUV11Vz2EU3m8SevbA',
+      'snippet': {
+        'publishedAt': '2023-07-05T01:40:37Z',
+        'channelId': 'UC-OVMPlMA3-YCIeg4z5z23A',
+        'title': 'Moscow Python Meetup №82',
+        'description': 'Видео выступлений  на Moscow Python Meetup №82 (15.06.2023)',
+        'thumbnails': {
+          'default': {
+            'url': 'https://i.ytimg.com/vi/EKiwVBOQ_XE/default.jpg',
+            'width': 120,
+            'height': 90
+          },
+          'medium': {
+            'url': 'https://i.ytimg.com/vi/EKiwVBOQ_XE/mqdefault.jpg',
+            'width': 320,
+            'height': 180
+          },
+          'high': {
+            'url': 'https://i.ytimg.com/vi/EKiwVBOQ_XE/hqdefault.jpg',
+            'width': 480,
+            'height': 360
+          },
+          'standard': {
+            'url': 'https://i.ytimg.com/vi/EKiwVBOQ_XE/sddefault.jpg',
+            'width': 640,
+            'height': 480
+          },
+          'maxres': {
+            'url': 'https://i.ytimg.com/vi/EKiwVBOQ_XE/maxresdefault.jpg',
+            'width': 1280,
+            'height': 720
+          }
+        },
+        'channelTitle': 'MoscowPython',
+        'localized': {
+          'title': 'Moscow Python Meetup №82',
+          'description': 'Видео выступлений  на Moscow Python Meetup №82 (15.06.2023)'
+        }
+      },
+      'contentDetails': {
+        'itemCount': 4
+      }
+    },
+    {
+      'kind': 'youtube#playlist',
+      'etag': 'aeK1xsLb4K0vW5N1nvPpZl2SmWw',
+      'id': 'PLv_zOGKKxVpj-n2qLkEM2Hj96LO6uqgQw',
+      'snippet': {
+        'publishedAt': '2023-03-29T22:48:53Z',
+        'channelId': 'UC-OVMPlMA3-YCIeg4z5z23A',
+        'title': 'Moscow Python Meetup №81',
+        'description': 'Видео с Moscow Python Meetup №81 (23.03.2023)\nслайды: https://moscowpython.ru/meetup/81/',
+        'thumbnails': {
+          'default': {
+            'url': 'https://i.ytimg.com/vi/feg3DYywNys/default.jpg',
+            'width': 120,
+            'height': 90
+          },
+          'medium': {
+            'url': 'https://i.ytimg.com/vi/feg3DYywNys/mqdefault.jpg',
+            'width': 320,
+            'height': 180
+          },
+          'high': {
+            'url': 'https://i.ytimg.com/vi/feg3DYywNys/hqdefault.jpg',
+            'width': 480,
+            'height': 360
+          },
+          'standard': {
+            'url': 'https://i.ytimg.com/vi/feg3DYywNys/sddefault.jpg',
+            'width': 640,
+            'height': 480
+          },
+          'maxres': {
+            'url': 'https://i.ytimg.com/vi/feg3DYywNys/maxresdefault.jpg',
+            'width': 1280,
+            'height': 720
+          }
+        },
+        'channelTitle': 'MoscowPython',
+        'localized': {
+          'title': 'Moscow Python Meetup №81',
+          'description': 'Видео с Moscow Python Meetup №81 (23.03.2023)\nслайды: https://moscowpython.ru/meetup/81/'
+        }
+      },
+      'contentDetails': {
+        'itemCount': 4
+      }
+    },
+    {
+      'kind': 'youtube#playlist',
+      'etag': 'nfG79wi43svYBILIRrXi5TskF8M',
+      'id': 'PLv_zOGKKxVpi7fbakTd49lTLRBCj0TmBR',
+      'snippet': {
+        'publishedAt': '2023-02-13T03:50:18Z',
+        'channelId': 'UC-OVMPlMA3-YCIeg4z5z23A',
+        'title': 'Moscow Python Meetup №80',
+        'description': 'Видео с MoscowPython Meetup №80 (24.01.2023) Слайды: https://moscowpython.ru/meetup/80/',
+        'thumbnails': {
+          'default': {
+            'url': 'https://i.ytimg.com/vi/xnyLVJKPTmQ/default.jpg',
+            'width': 120,
+            'height': 90
+          },
+          'medium': {
+            'url': 'https://i.ytimg.com/vi/xnyLVJKPTmQ/mqdefault.jpg',
+            'width': 320,
+            'height': 180
+          },
+          'high': {
+            'url': 'https://i.ytimg.com/vi/xnyLVJKPTmQ/hqdefault.jpg',
+            'width': 480,
+            'height': 360
+          },
+          'standard': {
+            'url': 'https://i.ytimg.com/vi/xnyLVJKPTmQ/sddefault.jpg',
+            'width': 640,
+            'height': 480
+          },
+          'maxres': {
+            'url': 'https://i.ytimg.com/vi/xnyLVJKPTmQ/maxresdefault.jpg',
+            'width': 1280,
+            'height': 720
+          }
+        },
+        'channelTitle': 'MoscowPython',
+        'localized': {
+          'title': 'Moscow Python Meetup №80',
+          'description': 'Видео с MoscowPython Meetup №80 (24.01.2023) Слайды: https://moscowpython.ru/meetup/80/'
+        }
+      },
+      'contentDetails': {
+        'itemCount': 3
+      }
+    },
+    {
+      'kind': 'youtube#playlist',
+      'etag': 'tta0EbF_Tx48RfRfx-XC5B8xKjw',
+      'id': 'PLv_zOGKKxVpijgNcZ1G3Bw-Z15Vw-Z2Rx',
+      'snippet': {
+        'publishedAt': '2023-02-02T21:43:51Z',
+        'channelId': 'UC-OVMPlMA3-YCIeg4z5z23A',
+        'title': 'Moscow Python №79',
+        'description': 'Видео с MoscowPython №79 (08.09.2022) Слайды: https://moscowpython.ru/meetup/79/',
+        'thumbnails': {
+          'default': {
+            'url': 'https://i.ytimg.com/vi/KPN5jDYMmss/default.jpg',
+            'width': 120,
+            'height': 90
+          },
+          'medium': {
+            'url': 'https://i.ytimg.com/vi/KPN5jDYMmss/mqdefault.jpg',
+            'width': 320,
+            'height': 180
+          },
+          'high': {
+            'url': 'https://i.ytimg.com/vi/KPN5jDYMmss/hqdefault.jpg',
+            'width': 480,
+            'height': 360
+          },
+          'standard': {
+            'url': 'https://i.ytimg.com/vi/KPN5jDYMmss/sddefault.jpg',
+            'width': 640,
+            'height': 480
+          },
+          'maxres': {
+            'url': 'https://i.ytimg.com/vi/KPN5jDYMmss/maxresdefault.jpg',
+            'width': 1280,
+            'height': 720
+          }
+        },
+        'channelTitle': 'MoscowPython',
+        'localized': {
+          'title': 'Moscow Python №79',
+          'description': 'Видео с MoscowPython №79 (08.09.2022) Слайды: https://moscowpython.ru/meetup/79/'
+        }
+      },
+      'contentDetails': {
+        'itemCount': 4
+      }
+    },
+    {
+      'kind': 'youtube#playlist',
+      'etag': '1gaellddA8cg_0x6OosA_NSDse4',
+      'id': 'PLv_zOGKKxVph_8g2Mqc3LMhj0M_BfasbC',
+      'snippet': {
+        'publishedAt': '2022-10-21T15:01:20Z',
+        'channelId': 'UC-OVMPlMA3-YCIeg4z5z23A',
+        'title': 'Moscow Python № 78',
+        'description': 'Видео с MoscowPython Meetup 78 (14.07.2022). Слайды: http://www.moscowpython.ru/meetup/78/',
+        'thumbnails': {
+          'default': {
+            'url': 'https://i.ytimg.com/vi/4fObz_qw9u4/default.jpg',
+            'width': 120,
+            'height': 90
+          },
+          'medium': {
+            'url': 'https://i.ytimg.com/vi/4fObz_qw9u4/mqdefault.jpg',
+            'width': 320,
+            'height': 180
+          },
+          'high': {
+            'url': 'https://i.ytimg.com/vi/4fObz_qw9u4/hqdefault.jpg',
+            'width': 480,
+            'height': 360
+          },
+          'standard': {
+            'url': 'https://i.ytimg.com/vi/4fObz_qw9u4/sddefault.jpg',
+            'width': 640,
+            'height': 480
+          },
+          'maxres': {
+            'url': 'https://i.ytimg.com/vi/4fObz_qw9u4/maxresdefault.jpg',
+            'width': 1280,
+            'height': 720
+          }
+        },
+        'channelTitle': 'MoscowPython',
+        'localized': {
+          'title': 'Moscow Python № 78',
+          'description': 'Видео с MoscowPython Meetup 78 (14.07.2022). Слайды: http://www.moscowpython.ru/meetup/78/'
+        }
+      },
+      'contentDetails': {
+        'itemCount': 4
+      }
+    },
+    {
+      'kind': 'youtube#playlist',
+      'etag': 'uDmY3DXPbVhJrYOgI6KyXaXacmY',
+      'id': 'PLv_zOGKKxVpjCzshgstUUiEA4o2wnyyGP',
+      'snippet': {
+        'publishedAt': '2022-08-10T14:48:33Z',
+        'channelId': 'UC-OVMPlMA3-YCIeg4z5z23A',
+        'title': 'Moscow Python № 77',
+        'description': 'Видео с MoscowPython Meetup 77 (09.06.2022). Слайды: http://www.moscowpython.ru/meetup/77/',
+        'thumbnails': {
+          'default': {
+            'url': 'https://i.ytimg.com/vi/c-C7C_BQ4DI/default.jpg',
+            'width': 120,
+            'height': 90
+          },
+          'medium': {
+            'url': 'https://i.ytimg.com/vi/c-C7C_BQ4DI/mqdefault.jpg',
+            'width': 320,
+            'height': 180
+          },
+          'high': {
+            'url': 'https://i.ytimg.com/vi/c-C7C_BQ4DI/hqdefault.jpg',
+            'width': 480,
+            'height': 360
+          },
+          'standard': {
+            'url': 'https://i.ytimg.com/vi/c-C7C_BQ4DI/sddefault.jpg',
+            'width': 640,
+            'height': 480
+          },
+          'maxres': {
+            'url': 'https://i.ytimg.com/vi/c-C7C_BQ4DI/maxresdefault.jpg',
+            'width': 1280,
+            'height': 720
+          }
+        },
+        'channelTitle': 'MoscowPython',
+        'localized': {
+          'title': 'Moscow Python № 77',
+          'description': 'Видео с MoscowPython Meetup 77 (09.06.2022). Слайды: http://www.moscowpython.ru/meetup/77/'
+        }
+      },
+      'contentDetails': {
+        'itemCount': 4
+      }
+    },
+    {
+      'kind': 'youtube#playlist',
+      'etag': 'ddiSeAUzaJY3cRIYWKr5vfDKYi4',
+      'id': 'PLv_zOGKKxVpi6Df3BWSZ07dIrCYVCivDY',
+      'snippet': {
+        'publishedAt': '2022-01-20T11:07:54Z',
+        'channelId': 'UC-OVMPlMA3-YCIeg4z5z23A',
+        'title': 'Moscow Python № 76',
+        'description': 'Видео с MoscowPython Meetup 76 (23.12.2021). Слайды: http://www.moscowpython.ru/meetup/76/',
+        'thumbnails': {
+          'default': {
+            'url': 'https://i.ytimg.com/vi/e2QO-9clnl4/default.jpg',
+            'width': 120,
+            'height': 90
+          },
+          'medium': {
+            'url': 'https://i.ytimg.com/vi/e2QO-9clnl4/mqdefault.jpg',
+            'width': 320,
+            'height': 180
+          },
+          'high': {
+            'url': 'https://i.ytimg.com/vi/e2QO-9clnl4/hqdefault.jpg',
+            'width': 480,
+            'height': 360
+          },
+          'standard': {
+            'url': 'https://i.ytimg.com/vi/e2QO-9clnl4/sddefault.jpg',
+            'width': 640,
+            'height': 480
+          },
+          'maxres': {
+            'url': 'https://i.ytimg.com/vi/e2QO-9clnl4/maxresdefault.jpg',
+            'width': 1280,
+            'height': 720
+          }
+        },
+        'channelTitle': 'MoscowPython',
+        'localized': {
+          'title': 'Moscow Python № 76',
+          'description': 'Видео с MoscowPython Meetup 76 (23.12.2021). Слайды: http://www.moscowpython.ru/meetup/76/'
+        }
+      },
+      'contentDetails': {
+        'itemCount': 4
+      }
+    },
+    {
+      'kind': 'youtube#playlist',
+      'etag': 'JsQEfkSgnkkE6q_ZwXYGGmQ50eY',
+      'id': 'PLv_zOGKKxVphX9coX7hN3Ho20wwrduHEk',
+      'snippet': {
+        'publishedAt': '2021-06-07T12:52:47Z',
+        'channelId': 'UC-OVMPlMA3-YCIeg4z5z23A',
+        'title': 'Moscow Python № 75',
+        'description': 'Видео с MoscowPython Meetup 75 (27.05.2021). Слайды: http://www.moscowpython.ru/meetup/75/',
+        'thumbnails': {
+          'default': {
+            'url': 'https://i.ytimg.com/vi/nsiIxJrnGqM/default.jpg',
+            'width': 120,
+            'height': 90
+          },
+          'medium': {
+            'url': 'https://i.ytimg.com/vi/nsiIxJrnGqM/mqdefault.jpg',
+            'width': 320,
+            'height': 180
+          },
+          'high': {
+            'url': 'https://i.ytimg.com/vi/nsiIxJrnGqM/hqdefault.jpg',
+            'width': 480,
+            'height': 360
+          },
+          'standard': {
+            'url': 'https://i.ytimg.com/vi/nsiIxJrnGqM/sddefault.jpg',
+            'width': 640,
+            'height': 480
+          }
+        },
+        'channelTitle': 'MoscowPython',
+        'localized': {
+          'title': 'Moscow Python № 75',
+          'description': 'Видео с MoscowPython Meetup 75 (27.05.2021). Слайды: http://www.moscowpython.ru/meetup/75/'
+        }
+      },
+      'contentDetails': {
+        'itemCount': 4
+      }
+    },
+    {
+      'kind': 'youtube#playlist',
+      'etag': 'IxjCrdApxsyIw-U4gYT9Bnr79i8',
+      'id': 'PLv_zOGKKxVpi-b7K93w09vHW4iAHfUTpt',
+      'snippet': {
+        'publishedAt': '2020-11-09T13:49:06Z',
+        'channelId': 'UC-OVMPlMA3-YCIeg4z5z23A',
+        'title': 'Python-стримы',
+        'description': 'Тут лежат записи наших стримов с участниками сообщества',
+        'thumbnails': {
+          'default': {
+            'url': 'https://i.ytimg.com/vi/vJWoLiqpk9g/default.jpg',
+            'width': 120,
+            'height': 90
+          },
+          'medium': {
+            'url': 'https://i.ytimg.com/vi/vJWoLiqpk9g/mqdefault.jpg',
+            'width': 320,
+            'height': 180
+          },
+          'high': {
+            'url': 'https://i.ytimg.com/vi/vJWoLiqpk9g/hqdefault.jpg',
+            'width': 480,
+            'height': 360
+          },
+          'standard': {
+            'url': 'https://i.ytimg.com/vi/vJWoLiqpk9g/sddefault.jpg',
+            'width': 640,
+            'height': 480
+          },
+          'maxres': {
+            'url': 'https://i.ytimg.com/vi/vJWoLiqpk9g/maxresdefault.jpg',
+            'width': 1280,
+            'height': 720
+          }
+        },
+        'channelTitle': 'MoscowPython',
+        'localized': {
+          'title': 'Python-стримы',
+          'description': 'Тут лежат записи наших стримов с участниками сообщества'
+        }
+      },
+      'contentDetails': {
+        'itemCount': 10
+      }
+    },
+    {
+      'kind': 'youtube#playlist',
+      'etag': 'zjuN3Avv1dCpaXLWDSKaBTRFOCU',
+      'id': 'PLv_zOGKKxVph5YpBNikDcZ9FEOm9bt0E4',
+      'snippet': {
+        'publishedAt': '2020-08-28T14:55:24Z',
+        'channelId': 'UC-OVMPlMA3-YCIeg4z5z23A',
+        'title': 'Russian Python Week 2020',
+        'description': 'Тут лежат видео про Russian Python Week 2020 \nПодробности мероприятия и билеты: https://conf.python.ru',
+        'thumbnails': {
+          'default': {
+            'url': 'https://i.ytimg.com/vi/-ynPxEN0RoU/default.jpg',
+            'width': 120,
+            'height': 90
+          },
+          'medium': {
+            'url': 'https://i.ytimg.com/vi/-ynPxEN0RoU/mqdefault.jpg',
+            'width': 320,
+            'height': 180
+          },
+          'high': {
+            'url': 'https://i.ytimg.com/vi/-ynPxEN0RoU/hqdefault.jpg',
+            'width': 480,
+            'height': 360
+          }
+        },
+        'channelTitle': 'MoscowPython',
+        'localized': {
+          'title': 'Russian Python Week 2020',
+          'description': 'Тут лежат видео про Russian Python Week 2020 \nПодробности мероприятия и билеты: https://conf.python.ru'
+        }
+      },
+      'contentDetails': {
+        'itemCount': 4
+      }
+    },
+    {
+      'kind': 'youtube#playlist',
+      'etag': '4FjoG-dTkdbgYadl8HXpAEBZQZU',
+      'id': 'PLv_zOGKKxVpiH-05ViXkFSofY4GABm1ZV',
+      'snippet': {
+        'publishedAt': '2020-08-25T13:28:04Z',
+        'channelId': 'UC-OVMPlMA3-YCIeg4z5z23A',
+        'title': 'Moscow Python № 74',
+        'description': 'Видео с MoscowPython Meetup 74 (онлайн) (25.06,2020).\nСлайды: http://www.moscowpython.ru/meetup/74/',
+        'thumbnails': {
+          'default': {
+            'url': 'https://i.ytimg.com/vi/DpndyJ-CK5s/default.jpg',
+            'width': 120,
+            'height': 90
+          },
+          'medium': {
+            'url': 'https://i.ytimg.com/vi/DpndyJ-CK5s/mqdefault.jpg',
+            'width': 320,
+            'height': 180
+          },
+          'high': {
+            'url': 'https://i.ytimg.com/vi/DpndyJ-CK5s/hqdefault.jpg',
+            'width': 480,
+            'height': 360
+          },
+          'standard': {
+            'url': 'https://i.ytimg.com/vi/DpndyJ-CK5s/sddefault.jpg',
+            'width': 640,
+            'height': 480
+          },
+          'maxres': {
+            'url': 'https://i.ytimg.com/vi/DpndyJ-CK5s/maxresdefault.jpg',
+            'width': 1280,
+            'height': 720
+          }
+        },
+        'channelTitle': 'MoscowPython',
+        'localized': {
+          'title': 'Moscow Python № 74',
+          'description': 'Видео с MoscowPython Meetup 74 (онлайн) (25.06,2020).\nСлайды: http://www.moscowpython.ru/meetup/74/'
+        }
+      },
+      'contentDetails': {
+        'itemCount': 2
+      }
+    },
+    {
+      'kind': 'youtube#playlist',
+      'etag': 'UXrdruiH5gDQSb71sd8ttF-0USs',
+      'id': 'PLv_zOGKKxVpiiGnx2nm6CBWMpvDq_ADMf',
+      'snippet': {
+        'publishedAt': '2020-07-02T16:02:26Z',
+        'channelId': 'UC-OVMPlMA3-YCIeg4z5z23A',
+        'title': 'Moscow Python № 73',
+        'description': 'Видео с MoscowPython Meetup 73 (онлайн) (28.05.2020). Слайды: http://www.moscowpython.ru/meetup/73/',
+        'thumbnails': {
+          'default': {
+            'url': 'https://i.ytimg.com/vi/knnooMn5xH0/default.jpg',
+            'width': 120,
+            'height': 90
+          },
+          'medium': {
+            'url': 'https://i.ytimg.com/vi/knnooMn5xH0/mqdefault.jpg',
+            'width': 320,
+            'height': 180
+          },
+          'high': {
+            'url': 'https://i.ytimg.com/vi/knnooMn5xH0/hqdefault.jpg',
+            'width': 480,
+            'height': 360
+          },
+          'standard': {
+            'url': 'https://i.ytimg.com/vi/knnooMn5xH0/sddefault.jpg',
+            'width': 640,
+            'height': 480
+          },
+          'maxres': {
+            'url': 'https://i.ytimg.com/vi/knnooMn5xH0/maxresdefault.jpg',
+            'width': 1280,
+            'height': 720
+          }
+        },
+        'channelTitle': 'MoscowPython',
+        'localized': {
+          'title': 'Moscow Python № 73',
+          'description': 'Видео с MoscowPython Meetup 73 (онлайн) (28.05.2020). Слайды: http://www.moscowpython.ru/meetup/73/'
+        }
+      },
+      'contentDetails': {
+        'itemCount': 3
+      }
+    },
+    {
+      'kind': 'youtube#playlist',
+      'etag': 'Y32LU9ItBWkY4H_lIly5F05dIU8',
+      'id': 'PLv_zOGKKxVpjkDzn0NWz-lJvkW3He7ZTW',
+      'snippet': {
+        'publishedAt': '2020-03-11T16:19:53Z',
+        'channelId': 'UC-OVMPlMA3-YCIeg4z5z23A',
+        'title': 'Интервью докладчиков Moscow Python Conf++ 2020',
+        'description': '',
+        'thumbnails': {
+          'default': {
+            'url': 'https://i.ytimg.com/vi/1pQKskRukbg/default.jpg',
+            'width': 120,
+            'height': 90
+          },
+          'medium': {
+            'url': 'https://i.ytimg.com/vi/1pQKskRukbg/mqdefault.jpg',
+            'width': 320,
+            'height': 180
+          },
+          'high': {
+            'url': 'https://i.ytimg.com/vi/1pQKskRukbg/hqdefault.jpg',
+            'width': 480,
+            'height': 360
+          },
+          'standard': {
+            'url': 'https://i.ytimg.com/vi/1pQKskRukbg/sddefault.jpg',
+            'width': 640,
+            'height': 480
+          },
+          'maxres': {
+            'url': 'https://i.ytimg.com/vi/1pQKskRukbg/maxresdefault.jpg',
+            'width': 1280,
+            'height': 720
+          }
+        },
+        'channelTitle': 'MoscowPython',
+        'localized': {
+          'title': 'Интервью докладчиков Moscow Python Conf++ 2020',
+          'description': ''
+        }
+      },
+      'contentDetails': {
+        'itemCount': 5
+      }
+    },
+    {
+      'kind': 'youtube#playlist',
+      'etag': '2e66swZ31UiESB1VmEntjQEAXL0',
+      'id': 'PLv_zOGKKxVpgnRTLQEmYmOfXjHTyVad0a',
+      'snippet': {
+        'publishedAt': '2020-02-19T13:31:43Z',
+        'channelId': 'UC-OVMPlMA3-YCIeg4z5z23A',
+        'title': 'Moscow Python № 72',
+        'description': 'Видео с MoscowPython Meetup 72 (30.01.2020). Слайды: http://www.moscowpython.ru/meetup/72/',
+        'thumbnails': {
+          'default': {
+            'url': 'https://i.ytimg.com/vi/6soqrpQpHlg/default.jpg',
+            'width': 120,
+            'height': 90
+          },
+          'medium': {
+            'url': 'https://i.ytimg.com/vi/6soqrpQpHlg/mqdefault.jpg',
+            'width': 320,
+            'height': 180
+          },
+          'high': {
+            'url': 'https://i.ytimg.com/vi/6soqrpQpHlg/hqdefault.jpg',
+            'width': 480,
+            'height': 360
+          },
+          'standard': {
+            'url': 'https://i.ytimg.com/vi/6soqrpQpHlg/sddefault.jpg',
+            'width': 640,
+            'height': 480
+          },
+          'maxres': {
+            'url': 'https://i.ytimg.com/vi/6soqrpQpHlg/maxresdefault.jpg',
+            'width': 1280,
+            'height': 720
+          }
+        },
+        'channelTitle': 'MoscowPython',
+        'localized': {
+          'title': 'Moscow Python № 72',
+          'description': 'Видео с MoscowPython Meetup 72 (30.01.2020). Слайды: http://www.moscowpython.ru/meetup/72/'
+        }
+      },
+      'contentDetails': {
+        'itemCount': 4
+      }
+    },
+    {
+      'kind': 'youtube#playlist',
+      'etag': '1-tP6PmnHIwqdER9dnB1w4e8bFM',
+      'id': 'PLv_zOGKKxVpgcD3ksVIxmVZEQtn3FvffV',
+      'snippet': {
+        'publishedAt': '2020-01-27T16:15:27Z',
+        'channelId': 'UC-OVMPlMA3-YCIeg4z5z23A',
+        'title': 'Moscow Python № 71',
+        'description': 'Видео с MoscowPython Meetup 71 (26.12.2019). Слайды: http://www.moscowpython.ru/meetup/71/',
+        'thumbnails': {
+          'default': {
+            'url': 'https://i.ytimg.com/vi/0Vngw-FFSdw/default.jpg',
+            'width': 120,
+            'height': 90
+          },
+          'medium': {
+            'url': 'https://i.ytimg.com/vi/0Vngw-FFSdw/mqdefault.jpg',
+            'width': 320,
+            'height': 180
+          },
+          'high': {
+            'url': 'https://i.ytimg.com/vi/0Vngw-FFSdw/hqdefault.jpg',
+            'width': 480,
+            'height': 360
+          },
+          'standard': {
+            'url': 'https://i.ytimg.com/vi/0Vngw-FFSdw/sddefault.jpg',
+            'width': 640,
+            'height': 480
+          },
+          'maxres': {
+            'url': 'https://i.ytimg.com/vi/0Vngw-FFSdw/maxresdefault.jpg',
+            'width': 1280,
+            'height': 720
+          }
+        },
+        'channelTitle': 'MoscowPython',
+        'localized': {
+          'title': 'Moscow Python № 71',
+          'description': 'Видео с MoscowPython Meetup 71 (26.12.2019). Слайды: http://www.moscowpython.ru/meetup/71/'
+        }
+      },
+      'contentDetails': {
+        'itemCount': 4
+      }
+    },
+    {
+      'kind': 'youtube#playlist',
+      'etag': 'KhFjJVvFqKwj8O0-vMjLks8q3OY',
+      'id': 'PLv_zOGKKxVpi2pU3QDfxLp1F3PmpHio-F',
+      'snippet': {
+        'publishedAt': '2019-12-27T15:32:10Z',
+        'channelId': 'UC-OVMPlMA3-YCIeg4z5z23A',
+        'title': 'Moscow Python № 70',
+        'description': 'Видео с MoscowPython Meetup 70 (28.11.2019). Cлайды: http://www.moscowpython.ru/meetup/70/',
+        'thumbnails': {
+          'default': {
+            'url': 'https://i.ytimg.com/vi/zldkkf-IB6k/default.jpg',
+            'width': 120,
+            'height': 90
+          },
+          'medium': {
+            'url': 'https://i.ytimg.com/vi/zldkkf-IB6k/mqdefault.jpg',
+            'width': 320,
+            'height': 180
+          },
+          'high': {
+            'url': 'https://i.ytimg.com/vi/zldkkf-IB6k/hqdefault.jpg',
+            'width': 480,
+            'height': 360
+          },
+          'standard': {
+            'url': 'https://i.ytimg.com/vi/zldkkf-IB6k/sddefault.jpg',
+            'width': 640,
+            'height': 480
+          },
+          'maxres': {
+            'url': 'https://i.ytimg.com/vi/zldkkf-IB6k/maxresdefault.jpg',
+            'width': 1280,
+            'height': 720
+          }
+        },
+        'channelTitle': 'MoscowPython',
+        'localized': {
+          'title': 'Moscow Python № 70',
+          'description': 'Видео с MoscowPython Meetup 70 (28.11.2019). Cлайды: http://www.moscowpython.ru/meetup/70/'
+        }
+      },
+      'contentDetails': {
+        'itemCount': 4
+      }
+    },
+    {
+      'kind': 'youtube#playlist',
+      'etag': '1UT_I4DICRP9wzajjJ7B5gBnYkI',
+      'id': 'PLv_zOGKKxVphYHYCA1F9wqTCFg876zAxA',
+      'snippet': {
+        'publishedAt': '2019-12-18T05:51:43Z',
+        'channelId': 'UC-OVMPlMA3-YCIeg4z5z23A',
+        'title': 'Проекты Learn Python: 13-й выпуск',
+        'description': '',
+        'thumbnails': {
+          'default': {
+            'url': 'https://i.ytimg.com/vi/1Dmr9DcQkB8/default.jpg',
+            'width': 120,
+            'height': 90
+          },
+          'medium': {
+            'url': 'https://i.ytimg.com/vi/1Dmr9DcQkB8/mqdefault.jpg',
+            'width': 320,
+            'height': 180
+          },
+          'high': {
+            'url': 'https://i.ytimg.com/vi/1Dmr9DcQkB8/hqdefault.jpg',
+            'width': 480,
+            'height': 360
+          },
+          'standard': {
+            'url': 'https://i.ytimg.com/vi/1Dmr9DcQkB8/sddefault.jpg',
+            'width': 640,
+            'height': 480
+          },
+          'maxres': {
+            'url': 'https://i.ytimg.com/vi/1Dmr9DcQkB8/maxresdefault.jpg',
+            'width': 1280,
+            'height': 720
+          }
+        },
+        'channelTitle': 'MoscowPython',
+        'localized': {
+          'title': 'Проекты Learn Python: 13-й выпуск',
+          'description': ''
+        }
+      },
+      'contentDetails': {
+        'itemCount': 16
+      }
+    },
+    {
+      'kind': 'youtube#playlist',
+      'etag': '7KjbH0JzzpqmY-d63STEXO4EnvE',
+      'id': 'PLv_zOGKKxVpgUi1a6sAzxnpYyTLd1R-_x',
+      'snippet': {
+        'publishedAt': '2019-11-15T16:57:22Z',
+        'channelId': 'UC-OVMPlMA3-YCIeg4z5z23A',
+        'title': 'Moscow Python № 69',
+        'description': 'Видео с MoscowPython Meetup 69 (30.10.2019). Cлайды: http://www.moscowpython.ru/meetup/69/',
+        'thumbnails': {
+          'default': {
+            'url': 'https://i.ytimg.com/vi/fVIDDIvmi3g/default.jpg',
+            'width': 120,
+            'height': 90
+          },
+          'medium': {
+            'url': 'https://i.ytimg.com/vi/fVIDDIvmi3g/mqdefault.jpg',
+            'width': 320,
+            'height': 180
+          },
+          'high': {
+            'url': 'https://i.ytimg.com/vi/fVIDDIvmi3g/hqdefault.jpg',
+            'width': 480,
+            'height': 360
+          },
+          'standard': {
+            'url': 'https://i.ytimg.com/vi/fVIDDIvmi3g/sddefault.jpg',
+            'width': 640,
+            'height': 480
+          },
+          'maxres': {
+            'url': 'https://i.ytimg.com/vi/fVIDDIvmi3g/maxresdefault.jpg',
+            'width': 1280,
+            'height': 720
+          }
+        },
+        'channelTitle': 'MoscowPython',
+        'localized': {
+          'title': 'Moscow Python № 69',
+          'description': 'Видео с MoscowPython Meetup 69 (30.10.2019). Cлайды: http://www.moscowpython.ru/meetup/69/'
+        }
+      },
+      'contentDetails': {
+        'itemCount': 4
+      }
+    },
+    {
+      'kind': 'youtube#playlist',
+      'etag': '6EJWCYrni_kYZ1Ma_-kEdFnnTWE',
+      'id': 'PLv_zOGKKxVphd2ye8WdB7B4aGuSvmrrTS',
+      'snippet': {
+        'publishedAt': '2019-11-10T14:24:30Z',
+        'channelId': 'UC-OVMPlMA3-YCIeg4z5z23A',
+        'title': 'Выпускники "Learn Python"',
+        'description': '',
+        'thumbnails': {
+          'default': {
+            'url': 'https://i.ytimg.com/vi/LhIEkR1MJ_k/default.jpg',
+            'width': 120,
+            'height': 90
+          },
+          'medium': {
+            'url': 'https://i.ytimg.com/vi/LhIEkR1MJ_k/mqdefault.jpg',
+            'width': 320,
+            'height': 180
+          },
+          'high': {
+            'url': 'https://i.ytimg.com/vi/LhIEkR1MJ_k/hqdefault.jpg',
+            'width': 480,
+            'height': 360
+          },
+          'standard': {
+            'url': 'https://i.ytimg.com/vi/LhIEkR1MJ_k/sddefault.jpg',
+            'width': 640,
+            'height': 480
+          },
+          'maxres': {
+            'url': 'https://i.ytimg.com/vi/LhIEkR1MJ_k/maxresdefault.jpg',
+            'width': 1280,
+            'height': 720
+          }
+        },
+        'channelTitle': 'MoscowPython',
+        'localized': {
+          'title': 'Выпускники "Learn Python"',
+          'description': ''
+        }
+      },
+      'contentDetails': {
+        'itemCount': 13
+      }
+    },
+    {
+      'kind': 'youtube#playlist',
+      'etag': 'NlRWflfhEnnd77uCFbsai481NNc',
+      'id': 'PLv_zOGKKxVpg8Pr306XgE3eLKQy_n75di',
+      'snippet': {
+        'publishedAt': '2019-10-23T13:23:10Z',
+        'channelId': 'UC-OVMPlMA3-YCIeg4z5z23A',
+        'title': 'Moscow Python № 68',
+        'description': 'Видео с MoscowPython Meetup 68 (23.09.2019). Cлайды: http://www.moscowpython.ru/meetup/68/',
+        'thumbnails': {
+          'default': {
+            'url': 'https://i.ytimg.com/vi/HEhThtYEQOo/default.jpg',
+            'width': 120,
+            'height': 90
+          },
+          'medium': {
+            'url': 'https://i.ytimg.com/vi/HEhThtYEQOo/mqdefault.jpg',
+            'width': 320,
+            'height': 180
+          },
+          'high': {
+            'url': 'https://i.ytimg.com/vi/HEhThtYEQOo/hqdefault.jpg',
+            'width': 480,
+            'height': 360
+          },
+          'standard': {
+            'url': 'https://i.ytimg.com/vi/HEhThtYEQOo/sddefault.jpg',
+            'width': 640,
+            'height': 480
+          },
+          'maxres': {
+            'url': 'https://i.ytimg.com/vi/HEhThtYEQOo/maxresdefault.jpg',
+            'width': 1280,
+            'height': 720
+          }
+        },
+        'channelTitle': 'MoscowPython',
+        'localized': {
+          'title': 'Moscow Python № 68',
+          'description': 'Видео с MoscowPython Meetup 68 (23.09.2019). Cлайды: http://www.moscowpython.ru/meetup/68/'
+        }
+      },
+      'contentDetails': {
+        'itemCount': 4
+      }
+    },
+    {
+      'kind': 'youtube#playlist',
+      'etag': 'C-uwSn8q3vW0TJN3VUAPD9ISTQU',
+      'id': 'PLv_zOGKKxVpiye652H8Xvu2dbLMJjwkEh',
+      'snippet': {
+        'publishedAt': '2019-09-30T16:07:26Z',
+        'channelId': 'UC-OVMPlMA3-YCIeg4z5z23A',
+        'title': 'Moscow Python № 67',
+        'description': 'Видео с MoscowPython Meetup 67 (21.08.2019). Слайды: http://www.moscowpython.ru/meetup/67/',
+        'thumbnails': {
+          'default': {
+            'url': 'https://i.ytimg.com/vi/7-GBLD4ggCg/default.jpg',
+            'width': 120,
+            'height': 90
+          },
+          'medium': {
+            'url': 'https://i.ytimg.com/vi/7-GBLD4ggCg/mqdefault.jpg',
+            'width': 320,
+            'height': 180
+          },
+          'high': {
+            'url': 'https://i.ytimg.com/vi/7-GBLD4ggCg/hqdefault.jpg',
+            'width': 480,
+            'height': 360
+          },
+          'standard': {
+            'url': 'https://i.ytimg.com/vi/7-GBLD4ggCg/sddefault.jpg',
+            'width': 640,
+            'height': 480
+          },
+          'maxres': {
+            'url': 'https://i.ytimg.com/vi/7-GBLD4ggCg/maxresdefault.jpg',
+            'width': 1280,
+            'height': 720
+          }
+        },
+        'channelTitle': 'MoscowPython',
+        'localized': {
+          'title': 'Moscow Python № 67',
+          'description': 'Видео с MoscowPython Meetup 67 (21.08.2019). Слайды: http://www.moscowpython.ru/meetup/67/'
+        }
+      },
+      'contentDetails': {
+        'itemCount': 4
+      }
+    },
+    {
+      'kind': 'youtube#playlist',
+      'etag': '65JgItnstQ0IKFVianjhX_PwPuo',
+      'id': 'PLv_zOGKKxVphu0fGRAoM5ZmgkZzsqoGRO',
+      'snippet': {
+        'publishedAt': '2019-09-05T16:10:48Z',
+        'channelId': 'UC-OVMPlMA3-YCIeg4z5z23A',
+        'title': 'Moscow Python № 66',
+        'description': 'Видео с MoscowPython Meetup 66 (25.07.2019). \nСлайды: http://www.moscowpython.ru/meetup/66',
+        'thumbnails': {
+          'default': {
+            'url': 'https://i.ytimg.com/vi/vcNH50g9EQk/default.jpg',
+            'width': 120,
+            'height': 90
+          },
+          'medium': {
+            'url': 'https://i.ytimg.com/vi/vcNH50g9EQk/mqdefault.jpg',
+            'width': 320,
+            'height': 180
+          },
+          'high': {
+            'url': 'https://i.ytimg.com/vi/vcNH50g9EQk/hqdefault.jpg',
+            'width': 480,
+            'height': 360
+          },
+          'standard': {
+            'url': 'https://i.ytimg.com/vi/vcNH50g9EQk/sddefault.jpg',
+            'width': 640,
+            'height': 480
+          },
+          'maxres': {
+            'url': 'https://i.ytimg.com/vi/vcNH50g9EQk/maxresdefault.jpg',
+            'width': 1280,
+            'height': 720
+          }
+        },
+        'channelTitle': 'MoscowPython',
+        'localized': {
+          'title': 'Moscow Python № 66',
+          'description': 'Видео с MoscowPython Meetup 66 (25.07.2019). \nСлайды: http://www.moscowpython.ru/meetup/66'
+        }
+      },
+      'contentDetails': {
+        'itemCount': 4
+      }
+    },
+    {
+      'kind': 'youtube#playlist',
+      'etag': 'FACVvpf6X4GeJo4fPhFjR61Gyn8',
+      'id': 'PLv_zOGKKxVpjRzLFA-DCwYJM59HFKl7gK',
+      'snippet': {
+        'publishedAt': '2019-07-20T08:36:56Z',
+        'channelId': 'UC-OVMPlMA3-YCIeg4z5z23A',
+        'title': 'Moscow Python № 65',
+        'description': 'Видео с MoscowPython Meetup 65 (27.06.2019). \nСлайды: http://www.moscowpython.ru/meetup/65/',
+        'thumbnails': {
+          'default': {
+            'url': 'https://i.ytimg.com/vi/7uAZEX2PqKY/default.jpg',
+            'width': 120,
+            'height': 90
+          },
+          'medium': {
+            'url': 'https://i.ytimg.com/vi/7uAZEX2PqKY/mqdefault.jpg',
+            'width': 320,
+            'height': 180
+          },
+          'high': {
+            'url': 'https://i.ytimg.com/vi/7uAZEX2PqKY/hqdefault.jpg',
+            'width': 480,
+            'height': 360
+          },
+          'standard': {
+            'url': 'https://i.ytimg.com/vi/7uAZEX2PqKY/sddefault.jpg',
+            'width': 640,
+            'height': 480
+          },
+          'maxres': {
+            'url': 'https://i.ytimg.com/vi/7uAZEX2PqKY/maxresdefault.jpg',
+            'width': 1280,
+            'height': 720
+          }
+        },
+        'channelTitle': 'MoscowPython',
+        'localized': {
+          'title': 'Moscow Python № 65',
+          'description': 'Видео с MoscowPython Meetup 65 (27.06.2019). \nСлайды: http://www.moscowpython.ru/meetup/65/'
+        }
+      },
+      'contentDetails': {
+        'itemCount': 3
+      }
+    },
+    {
+      'kind': 'youtube#playlist',
+      'etag': 'KN7p62Whujg-HeKNwCfeqQypRYo',
+      'id': 'PLv_zOGKKxVpjOJSluG28YgcEEfx3Rrejx',
+      'snippet': {
+        'publishedAt': '2019-06-25T16:23:47Z',
+        'channelId': 'UC-OVMPlMA3-YCIeg4z5z23A',
+        'title': 'Евгений Идзиковский о Soft Skills для разработчика',
+        'description': 'Доклады коуча Евгения Идзиковского на тему soft skills.',
+        'thumbnails': {
+          'default': {
+            'url': 'https://i.ytimg.com/vi/PHksWw_NlLU/default.jpg',
+            'width': 120,
+            'height': 90
+          },
+          'medium': {
+            'url': 'https://i.ytimg.com/vi/PHksWw_NlLU/mqdefault.jpg',
+            'width': 320,
+            'height': 180
+          },
+          'high': {
+            'url': 'https://i.ytimg.com/vi/PHksWw_NlLU/hqdefault.jpg',
+            'width': 480,
+            'height': 360
+          },
+          'standard': {
+            'url': 'https://i.ytimg.com/vi/PHksWw_NlLU/sddefault.jpg',
+            'width': 640,
+            'height': 480
+          },
+          'maxres': {
+            'url': 'https://i.ytimg.com/vi/PHksWw_NlLU/maxresdefault.jpg',
+            'width': 1280,
+            'height': 720
+          }
+        },
+        'channelTitle': 'MoscowPython',
+        'localized': {
+          'title': 'Евгений Идзиковский о Soft Skills для разработчика',
+          'description': 'Доклады коуча Евгения Идзиковского на тему soft skills.'
+        }
+      },
+      'contentDetails': {
+        'itemCount': 3
+      }
+    },
+    {
+      'kind': 'youtube#playlist',
+      'etag': 'Iv8zqE471josq48SXcizClsXvFk',
+      'id': 'PLv_zOGKKxVpjKqPxLMj-kDW34HSXcilhI',
+      'snippet': {
+        'publishedAt': '2019-06-25T15:22:36Z',
+        'channelId': 'UC-OVMPlMA3-YCIeg4z5z23A',
+        'title': 'Moscow Python № 64',
+        'description': 'Видео с Moscow Python Meetup 64 (30.05.2019). Слайды: http://www.moscowpython.ru/meetup/64/',
+        'thumbnails': {
+          'default': {
+            'url': 'https://i.ytimg.com/vi/-52jfQ4gr6s/default.jpg',
+            'width': 120,
+            'height': 90
+          },
+          'medium': {
+            'url': 'https://i.ytimg.com/vi/-52jfQ4gr6s/mqdefault.jpg',
+            'width': 320,
+            'height': 180
+          },
+          'high': {
+            'url': 'https://i.ytimg.com/vi/-52jfQ4gr6s/hqdefault.jpg',
+            'width': 480,
+            'height': 360
+          },
+          'standard': {
+            'url': 'https://i.ytimg.com/vi/-52jfQ4gr6s/sddefault.jpg',
+            'width': 640,
+            'height': 480
+          },
+          'maxres': {
+            'url': 'https://i.ytimg.com/vi/-52jfQ4gr6s/maxresdefault.jpg',
+            'width': 1280,
+            'height': 720
+          }
+        },
+        'channelTitle': 'MoscowPython',
+        'localized': {
+          'title': 'Moscow Python № 64',
+          'description': 'Видео с Moscow Python Meetup 64 (30.05.2019). Слайды: http://www.moscowpython.ru/meetup/64/'
+        }
+      },
+      'contentDetails': {
+        'itemCount': 4
+      }
+    },
+    {
+      'kind': 'youtube#playlist',
+      'etag': '7nPG-jIMk28Ym-qzbWTD3qqPqV8',
+      'id': 'PLv_zOGKKxVpjnd-Y-5wyfYWUyGnutr3dQ',
+      'snippet': {
+        'publishedAt': '2019-03-10T15:39:46Z',
+        'channelId': 'UC-OVMPlMA3-YCIeg4z5z23A',
+        'title': 'Проекты Learn Python: 10-й выпуск',
+        'description': 'Презентации проектов выпускников курса Learn Python (http://learn.python.ru)',
+        'thumbnails': {
+          'default': {
+            'url': 'https://i.ytimg.com/vi/C4OFMPMEQ90/default.jpg',
+            'width': 120,
+            'height': 90
+          },
+          'medium': {
+            'url': 'https://i.ytimg.com/vi/C4OFMPMEQ90/mqdefault.jpg',
+            'width': 320,
+            'height': 180
+          },
+          'high': {
+            'url': 'https://i.ytimg.com/vi/C4OFMPMEQ90/hqdefault.jpg',
+            'width': 480,
+            'height': 360
+          },
+          'standard': {
+            'url': 'https://i.ytimg.com/vi/C4OFMPMEQ90/sddefault.jpg',
+            'width': 640,
+            'height': 480
+          },
+          'maxres': {
+            'url': 'https://i.ytimg.com/vi/C4OFMPMEQ90/maxresdefault.jpg',
+            'width': 1280,
+            'height': 720
+          }
+        },
+        'channelTitle': 'MoscowPython',
+        'localized': {
+          'title': 'Проекты Learn Python: 10-й выпуск',
+          'description': 'Презентации проектов выпускников курса Learn Python (http://learn.python.ru)'
+        }
+      },
+      'contentDetails': {
+        'itemCount': 18
+      }
+    },
+    {
+      'kind': 'youtube#playlist',
+      'etag': 'dhWmg3Tz1LyeORPVdwtNPfVa2cA',
+      'id': 'PLv_zOGKKxVpi6BSAuySAtX5KyCa50PSCz',
+      'snippet': {
+        'publishedAt': '2019-02-28T15:36:43Z',
+        'channelId': 'UC-OVMPlMA3-YCIeg4z5z23A',
+        'title': 'Злата Обуховская -  Цикл "Что внутри у Питона"',
+        'description': '',
+        'thumbnails': {
+          'default': {
+            'url': 'https://i.ytimg.com/vi/at30AmjPsy4/default.jpg',
+            'width': 120,
+            'height': 90
+          },
+          'medium': {
+            'url': 'https://i.ytimg.com/vi/at30AmjPsy4/mqdefault.jpg',
+            'width': 320,
+            'height': 180
+          },
+          'high': {
+            'url': 'https://i.ytimg.com/vi/at30AmjPsy4/hqdefault.jpg',
+            'width': 480,
+            'height': 360
+          },
+          'standard': {
+            'url': 'https://i.ytimg.com/vi/at30AmjPsy4/sddefault.jpg',
+            'width': 640,
+            'height': 480
+          },
+          'maxres': {
+            'url': 'https://i.ytimg.com/vi/at30AmjPsy4/maxresdefault.jpg',
+            'width': 1280,
+            'height': 720
+          }
+        },
+        'channelTitle': 'MoscowPython',
+        'localized': {
+          'title': 'Злата Обуховская -  Цикл "Что внутри у Питона"',
+          'description': ''
+        }
+      },
+      'contentDetails': {
+        'itemCount': 3
+      }
+    },
+    {
+      'kind': 'youtube#playlist',
+      'etag': 'I409gOiqqot0nUppD7sSq4vy114',
+      'id': 'PLv_zOGKKxVpigCYSm1pVIezNiq1uV803U',
+      'snippet': {
+        'publishedAt': '2019-02-28T15:03:08Z',
+        'channelId': 'UC-OVMPlMA3-YCIeg4z5z23A',
+        'title': 'Moscow Python № 63',
+        'description': 'Видео с Moscow Python Meetup 63 (08.02.2019). Слайды: http://www.moscowpython.ru/meetup/63/',
+        'thumbnails': {
+          'default': {
+            'url': 'https://i.ytimg.com/vi/5VNfDa0MlXA/default.jpg',
+            'width': 120,
+            'height': 90
+          },
+          'medium': {
+            'url': 'https://i.ytimg.com/vi/5VNfDa0MlXA/mqdefault.jpg',
+            'width': 320,
+            'height': 180
+          },
+          'high': {
+            'url': 'https://i.ytimg.com/vi/5VNfDa0MlXA/hqdefault.jpg',
+            'width': 480,
+            'height': 360
+          },
+          'standard': {
+            'url': 'https://i.ytimg.com/vi/5VNfDa0MlXA/sddefault.jpg',
+            'width': 640,
+            'height': 480
+          },
+          'maxres': {
+            'url': 'https://i.ytimg.com/vi/5VNfDa0MlXA/maxresdefault.jpg',
+            'width': 1280,
+            'height': 720
+          }
+        },
+        'channelTitle': 'MoscowPython',
+        'localized': {
+          'title': 'Moscow Python № 63',
+          'description': 'Видео с Moscow Python Meetup 63 (08.02.2019). Слайды: http://www.moscowpython.ru/meetup/63/'
+        }
+      },
+      'contentDetails': {
+        'itemCount': 4
+      }
+    },
+    {
+      'kind': 'youtube#playlist',
+      'etag': 'zEkvyWm25O4EHDYBp03LoH0fV6M',
+      'id': 'PLv_zOGKKxVpi-Jt90jDEhOm-ysbwLzOud',
+      'snippet': {
+        'publishedAt': '2019-01-28T16:21:50Z',
+        'channelId': 'UC-OVMPlMA3-YCIeg4z5z23A',
+        'title': 'Moscow Python № 62',
+        'description': 'Видео с Moscow Python Meetup 62 (27.12.2018). Слайды: http://www.moscowpython.ru/meetup/62/',
+        'thumbnails': {
+          'default': {
+            'url': 'https://i.ytimg.com/vi/KBGBhueO6dc/default.jpg',
+            'width': 120,
+            'height': 90
+          },
+          'medium': {
+            'url': 'https://i.ytimg.com/vi/KBGBhueO6dc/mqdefault.jpg',
+            'width': 320,
+            'height': 180
+          },
+          'high': {
+            'url': 'https://i.ytimg.com/vi/KBGBhueO6dc/hqdefault.jpg',
+            'width': 480,
+            'height': 360
+          },
+          'standard': {
+            'url': 'https://i.ytimg.com/vi/KBGBhueO6dc/sddefault.jpg',
+            'width': 640,
+            'height': 480
+          },
+          'maxres': {
+            'url': 'https://i.ytimg.com/vi/KBGBhueO6dc/maxresdefault.jpg',
+            'width': 1280,
+            'height': 720
+          }
+        },
+        'channelTitle': 'MoscowPython',
+        'localized': {
+          'title': 'Moscow Python № 62',
+          'description': 'Видео с Moscow Python Meetup 62 (27.12.2018). Слайды: http://www.moscowpython.ru/meetup/62/'
+        }
+      },
+      'contentDetails': {
+        'itemCount': 5
+      }
+    },
+    {
+      'kind': 'youtube#playlist',
+      'etag': 'SHArSiCA_GmIWt7OIrt10MCHMnU',
+      'id': 'PLv_zOGKKxVphbWzL21DUDPBUwtUz9kRb_',
+      'snippet': {
+        'publishedAt': '2019-01-16T11:04:05Z',
+        'channelId': 'UC-OVMPlMA3-YCIeg4z5z23A',
+        'title': 'Интервью с Moscow Python Conf++ 2018',
+        'description': '',
+        'thumbnails': {
+          'default': {
+            'url': 'https://i.ytimg.com/vi/s_aDuqw8Dlw/default.jpg',
+            'width': 120,
+            'height': 90
+          },
+          'medium': {
+            'url': 'https://i.ytimg.com/vi/s_aDuqw8Dlw/mqdefault.jpg',
+            'width': 320,
+            'height': 180
+          },
+          'high': {
+            'url': 'https://i.ytimg.com/vi/s_aDuqw8Dlw/hqdefault.jpg',
+            'width': 480,
+            'height': 360
+          },
+          'standard': {
+            'url': 'https://i.ytimg.com/vi/s_aDuqw8Dlw/sddefault.jpg',
+            'width': 640,
+            'height': 480
+          },
+          'maxres': {
+            'url': 'https://i.ytimg.com/vi/s_aDuqw8Dlw/maxresdefault.jpg',
+            'width': 1280,
+            'height': 720
+          }
+        },
+        'channelTitle': 'MoscowPython',
+        'localized': {
+          'title': 'Интервью с Moscow Python Conf++ 2018',
+          'description': ''
+        }
+      },
+      'contentDetails': {
+        'itemCount': 6
+      }
+    },
+    {
+      'kind': 'youtube#playlist',
+      'etag': 'nMcRXKzdX3i40hJvzv2vW7tuVSA',
+      'id': 'PLv_zOGKKxVpjjy2Q4OJ-ww7L4uL6_s5w3',
+      'snippet': {
+        'publishedAt': '2019-01-16T11:03:15Z',
+        'channelId': 'UC-OVMPlMA3-YCIeg4z5z23A',
+        'title': 'Moscow Python Conf++ 2018',
+        'description': 'Видео с конференции Moscow Python Conf++ 2018. Подробности о конференции - http://conf.python.ru',
+        'thumbnails': {
+          'default': {
+            'url': 'https://i.ytimg.com/vi/4Gxzc9sJTUk/default.jpg',
+            'width': 120,
+            'height': 90
+          },
+          'medium': {
+            'url': 'https://i.ytimg.com/vi/4Gxzc9sJTUk/mqdefault.jpg',
+            'width': 320,
+            'height': 180
+          },
+          'high': {
+            'url': 'https://i.ytimg.com/vi/4Gxzc9sJTUk/hqdefault.jpg',
+            'width': 480,
+            'height': 360
+          },
+          'standard': {
+            'url': 'https://i.ytimg.com/vi/4Gxzc9sJTUk/sddefault.jpg',
+            'width': 640,
+            'height': 480
+          },
+          'maxres': {
+            'url': 'https://i.ytimg.com/vi/4Gxzc9sJTUk/maxresdefault.jpg',
+            'width': 1280,
+            'height': 720
+          }
+        },
+        'channelTitle': 'MoscowPython',
+        'localized': {
+          'title': 'Moscow Python Conf++ 2018',
+          'description': 'Видео с конференции Moscow Python Conf++ 2018. Подробности о конференции - http://conf.python.ru'
+        }
+      },
+      'contentDetails': {
+        'itemCount': 27
+      }
+    },
+    {
+      'kind': 'youtube#playlist',
+      'etag': 'N93qKsWmYOjPeHQWreH3zMLrsnA',
+      'id': 'PLv_zOGKKxVpgeU67FSQ0QmjuOWto2QoR2',
+      'snippet': {
+        'publishedAt': '2019-01-04T14:09:04Z',
+        'channelId': 'UC-OVMPlMA3-YCIeg4z5z23A',
+        'title': 'Kiwi.com Brno-Moscow Python Meetup 2',
+        'description': 'Видео с Kiwi.com Brno-Moscow Meetup 2 (05.12.2019). Слайды: http://www.moscowpython.ru/meetup/2/',
+        'thumbnails': {
+          'default': {
+            'url': 'https://i.ytimg.com/vi/CWNCzpxuLJI/default.jpg',
+            'width': 120,
+            'height': 90
+          },
+          'medium': {
+            'url': 'https://i.ytimg.com/vi/CWNCzpxuLJI/mqdefault.jpg',
+            'width': 320,
+            'height': 180
+          },
+          'high': {
+            'url': 'https://i.ytimg.com/vi/CWNCzpxuLJI/hqdefault.jpg',
+            'width': 480,
+            'height': 360
+          },
+          'standard': {
+            'url': 'https://i.ytimg.com/vi/CWNCzpxuLJI/sddefault.jpg',
+            'width': 640,
+            'height': 480
+          },
+          'maxres': {
+            'url': 'https://i.ytimg.com/vi/CWNCzpxuLJI/maxresdefault.jpg',
+            'width': 1280,
+            'height': 720
+          }
+        },
+        'channelTitle': 'MoscowPython',
+        'localized': {
+          'title': 'Kiwi.com Brno-Moscow Python Meetup 2',
+          'description': 'Видео с Kiwi.com Brno-Moscow Meetup 2 (05.12.2019). Слайды: http://www.moscowpython.ru/meetup/2/'
+        }
+      },
+      'contentDetails': {
+        'itemCount': 4
+      }
+    },
+    {
+      'kind': 'youtube#playlist',
+      'etag': '_iMuUKKTV2QFWdvgRADcjsDR2DU',
+      'id': 'PLv_zOGKKxVphDaF2XYHGbbyaz-wJ6_C6B',
+      'snippet': {
+        'publishedAt': '2018-12-18T18:30:11Z',
+        'channelId': 'UC-OVMPlMA3-YCIeg4z5z23A',
+        'title': 'Moscow Python № 61',
+        'description': 'Видео с Moscow Python Meetup 61 (29.11.2018). Слайды: http://www.moscowpython.ru/meetup/61/',
+        'thumbnails': {
+          'default': {
+            'url': 'https://i.ytimg.com/vi/PHksWw_NlLU/default.jpg',
+            'width': 120,
+            'height': 90
+          },
+          'medium': {
+            'url': 'https://i.ytimg.com/vi/PHksWw_NlLU/mqdefault.jpg',
+            'width': 320,
+            'height': 180
+          },
+          'high': {
+            'url': 'https://i.ytimg.com/vi/PHksWw_NlLU/hqdefault.jpg',
+            'width': 480,
+            'height': 360
+          },
+          'standard': {
+            'url': 'https://i.ytimg.com/vi/PHksWw_NlLU/sddefault.jpg',
+            'width': 640,
+            'height': 480
+          },
+          'maxres': {
+            'url': 'https://i.ytimg.com/vi/PHksWw_NlLU/maxresdefault.jpg',
+            'width': 1280,
+            'height': 720
+          }
+        },
+        'channelTitle': 'MoscowPython',
+        'localized': {
+          'title': 'Moscow Python № 61',
+          'description': 'Видео с Moscow Python Meetup 61 (29.11.2018). Слайды: http://www.moscowpython.ru/meetup/61/'
+        }
+      },
+      'contentDetails': {
+        'itemCount': 3
+      }
+    },
+    {
+      'kind': 'youtube#playlist',
+      'etag': 'anL5BZUpPiP0JlamSVILUnE6qYY',
+      'id': 'PLv_zOGKKxVphI5cYH7MffUlFwAt_rPYmX',
+      'snippet': {
+        'publishedAt': '2018-10-16T15:13:30Z',
+        'channelId': 'UC-OVMPlMA3-YCIeg4z5z23A',
+        'title': 'Moscow Python № 60',
+        'description': 'Видео с Moscow Python Meetup 60 (21.09.2018). Слайды: http://www.moscowpython.ru/meetup/60/',
+        'thumbnails': {
+          'default': {
+            'url': 'https://i.ytimg.com/vi/kpmltOTb_D8/default.jpg',
+            'width': 120,
+            'height': 90
+          },
+          'medium': {
+            'url': 'https://i.ytimg.com/vi/kpmltOTb_D8/mqdefault.jpg',
+            'width': 320,
+            'height': 180
+          },
+          'high': {
+            'url': 'https://i.ytimg.com/vi/kpmltOTb_D8/hqdefault.jpg',
+            'width': 480,
+            'height': 360
+          },
+          'standard': {
+            'url': 'https://i.ytimg.com/vi/kpmltOTb_D8/sddefault.jpg',
+            'width': 640,
+            'height': 480
+          },
+          'maxres': {
+            'url': 'https://i.ytimg.com/vi/kpmltOTb_D8/maxresdefault.jpg',
+            'width': 1280,
+            'height': 720
+          }
+        },
+        'channelTitle': 'MoscowPython',
+        'localized': {
+          'title': 'Moscow Python № 60',
+          'description': 'Видео с Moscow Python Meetup 60 (21.09.2018). Слайды: http://www.moscowpython.ru/meetup/60/'
+        }
+      },
+      'contentDetails': {
+        'itemCount': 3
+      }
+    },
+    {
+      'kind': 'youtube#playlist',
+      'etag': 'WYtkLA_s7ct_EaknuRYqX670fHc',
+      'id': 'PLv_zOGKKxVpiR08JI5urruwo1yt3EXa5w',
+      'snippet': {
+        'publishedAt': '2018-09-17T18:34:26Z',
+        'channelId': 'UC-OVMPlMA3-YCIeg4z5z23A',
+        'title': 'Проекты LearnPython: 9-й выпуск',
+        'description': 'На каждом курсе LearnPython (http://bit.ly/2QwdP84) мы просим студентов объединиться, придумать проект и за месяц написать его прототип. \n\nВот истории тех, кто закончил наши курсы Python по созданию ботов, data science и веб-разработке в июле 2018-го года.',
+        'thumbnails': {
+          'default': {
+            'url': 'https://i.ytimg.com/vi/CZc7u-OIg8I/default.jpg',
+            'width': 120,
+            'height': 90
+          },
+          'medium': {
+            'url': 'https://i.ytimg.com/vi/CZc7u-OIg8I/mqdefault.jpg',
+            'width': 320,
+            'height': 180
+          },
+          'high': {
+            'url': 'https://i.ytimg.com/vi/CZc7u-OIg8I/hqdefault.jpg',
+            'width': 480,
+            'height': 360
+          },
+          'standard': {
+            'url': 'https://i.ytimg.com/vi/CZc7u-OIg8I/sddefault.jpg',
+            'width': 640,
+            'height': 480
+          }
+        },
+        'channelTitle': 'MoscowPython',
+        'localized': {
+          'title': 'Проекты LearnPython: 9-й выпуск',
+          'description': 'На каждом курсе LearnPython (http://bit.ly/2QwdP84) мы просим студентов объединиться, придумать проект и за месяц написать его прототип. \n\nВот истории тех, кто закончил наши курсы Python по созданию ботов, data science и веб-разработке в июле 2018-го года.'
+        }
+      },
+      'contentDetails': {
+        'itemCount': 9
+      }
+    },
+    {
+      'kind': 'youtube#playlist',
+      'etag': '4jVwzxQK_zzIEUwg3AI9K_7NIm0',
+      'id': 'PLv_zOGKKxVpiVTAX6Le-XDd8xhjoFcfsi',
+      'snippet': {
+        'publishedAt': '2018-09-14T16:10:44Z',
+        'channelId': 'UC-OVMPlMA3-YCIeg4z5z23A',
+        'title': 'Moscow Python № 59',
+        'description': 'Видео с Moscow Python Meetup 59 (23.08.2018). Слайды: http://www.moscowpython.ru/meetup/59/',
+        'thumbnails': {
+          'default': {
+            'url': 'https://i.ytimg.com/vi/UPSUYsxhWjQ/default.jpg',
+            'width': 120,
+            'height': 90
+          },
+          'medium': {
+            'url': 'https://i.ytimg.com/vi/UPSUYsxhWjQ/mqdefault.jpg',
+            'width': 320,
+            'height': 180
+          },
+          'high': {
+            'url': 'https://i.ytimg.com/vi/UPSUYsxhWjQ/hqdefault.jpg',
+            'width': 480,
+            'height': 360
+          },
+          'standard': {
+            'url': 'https://i.ytimg.com/vi/UPSUYsxhWjQ/sddefault.jpg',
+            'width': 640,
+            'height': 480
+          },
+          'maxres': {
+            'url': 'https://i.ytimg.com/vi/UPSUYsxhWjQ/maxresdefault.jpg',
+            'width': 1280,
+            'height': 720
+          }
+        },
+        'channelTitle': 'MoscowPython',
+        'localized': {
+          'title': 'Moscow Python № 59',
+          'description': 'Видео с Moscow Python Meetup 59 (23.08.2018). Слайды: http://www.moscowpython.ru/meetup/59/'
+        }
+      },
+      'contentDetails': {
+        'itemCount': 4
+      }
+    },
+    {
+      'kind': 'youtube#playlist',
+      'etag': 'THA-y-vcgqbib675CmdRkEE3V3Q',
+      'id': 'PLv_zOGKKxVpit6NAIf4CjfK_w9k25pS89',
+      'snippet': {
+        'publishedAt': '2018-08-18T16:33:09Z',
+        'channelId': 'UC-OVMPlMA3-YCIeg4z5z23A',
+        'title': 'Moscow Python № 58',
+        'description': 'Видео с Moscow Python Meetup 58 (20.07.2018). Слайды: http://www.moscowpython.ru/meetup/58/',
+        'thumbnails': {
+          'default': {
+            'url': 'https://i.ytimg.com/vi/X07fFo9Eenc/default.jpg',
+            'width': 120,
+            'height': 90
+          },
+          'medium': {
+            'url': 'https://i.ytimg.com/vi/X07fFo9Eenc/mqdefault.jpg',
+            'width': 320,
+            'height': 180
+          },
+          'high': {
+            'url': 'https://i.ytimg.com/vi/X07fFo9Eenc/hqdefault.jpg',
+            'width': 480,
+            'height': 360
+          },
+          'standard': {
+            'url': 'https://i.ytimg.com/vi/X07fFo9Eenc/sddefault.jpg',
+            'width': 640,
+            'height': 480
+          },
+          'maxres': {
+            'url': 'https://i.ytimg.com/vi/X07fFo9Eenc/maxresdefault.jpg',
+            'width': 1280,
+            'height': 720
+          }
+        },
+        'channelTitle': 'MoscowPython',
+        'localized': {
+          'title': 'Moscow Python № 58',
+          'description': 'Видео с Moscow Python Meetup 58 (20.07.2018). Слайды: http://www.moscowpython.ru/meetup/58/'
+        }
+      },
+      'contentDetails': {
+        'itemCount': 3
+      }
+    },
+    {
+      'kind': 'youtube#playlist',
+      'etag': 'zU9nyzX4w4d8yZ6Mfk_tQCw9lm4',
+      'id': 'PLv_zOGKKxVph51u_AIswuXCasZ7aZD8t3',
+      'snippet': {
+        'publishedAt': '2018-08-08T15:57:45Z',
+        'channelId': 'UC-OVMPlMA3-YCIeg4z5z23A',
+        'title': 'Moscow Python Podcast',
+        'description': 'Moscow Python Podcast - единственный регулярный русскоязычный подкаст для тех, кто хочет лучше разобраться в Python и не только!',
+        'thumbnails': {
+          'default': {
+            'url': 'https://i.ytimg.com/vi/ZDksEcPOKCc/default_live.jpg',
+            'width': 120,
+            'height': 90
+          },
+          'medium': {
+            'url': 'https://i.ytimg.com/vi/ZDksEcPOKCc/mqdefault_live.jpg',
+            'width': 320,
+            'height': 180
+          },
+          'high': {
+            'url': 'https://i.ytimg.com/vi/ZDksEcPOKCc/hqdefault_live.jpg',
+            'width': 480,
+            'height': 360
+          },
+          'standard': {
+            'url': 'https://i.ytimg.com/vi/ZDksEcPOKCc/sddefault_live.jpg',
+            'width': 640,
+            'height': 480
+          },
+          'maxres': {
+            'url': 'https://i.ytimg.com/vi/ZDksEcPOKCc/maxresdefault_live.jpg',
+            'width': 1280,
+            'height': 720
+          }
+        },
+        'channelTitle': 'MoscowPython',
+        'localized': {
+          'title': 'Moscow Python Podcast',
+          'description': 'Moscow Python Podcast - единственный регулярный русскоязычный подкаст для тех, кто хочет лучше разобраться в Python и не только!'
+        }
+      },
+      'contentDetails': {
+        'itemCount': 177
+      }
+    },
+    {
+      'kind': 'youtube#playlist',
+      'etag': 'zyPiqXpYmBYKrU0fSnqm4aPQGY0',
+      'id': 'PLv_zOGKKxVpjwpjn6rMNvQnFw6baY_mWF',
+      'snippet': {
+        'publishedAt': '2018-08-07T16:45:07Z',
+        'channelId': 'UC-OVMPlMA3-YCIeg4z5z23A',
+        'title': 'Moscow Python № 57',
+        'description': 'Видео с Moscow Python Meetup 57 (26.06.2018). Слайды: http://www.moscowpython.ru/meetup/57/',
+        'thumbnails': {
+          'default': {
+            'url': 'https://i.ytimg.com/vi/g3vsayMXjjE/default.jpg',
+            'width': 120,
+            'height': 90
+          },
+          'medium': {
+            'url': 'https://i.ytimg.com/vi/g3vsayMXjjE/mqdefault.jpg',
+            'width': 320,
+            'height': 180
+          },
+          'high': {
+            'url': 'https://i.ytimg.com/vi/g3vsayMXjjE/hqdefault.jpg',
+            'width': 480,
+            'height': 360
+          },
+          'standard': {
+            'url': 'https://i.ytimg.com/vi/g3vsayMXjjE/sddefault.jpg',
+            'width': 640,
+            'height': 480
+          },
+          'maxres': {
+            'url': 'https://i.ytimg.com/vi/g3vsayMXjjE/maxresdefault.jpg',
+            'width': 1280,
+            'height': 720
+          }
+        },
+        'channelTitle': 'MoscowPython',
+        'localized': {
+          'title': 'Moscow Python № 57',
+          'description': 'Видео с Moscow Python Meetup 57 (26.06.2018). Слайды: http://www.moscowpython.ru/meetup/57/'
+        }
+      },
+      'contentDetails': {
+        'itemCount': 3
+      }
+    },
+    {
+      'kind': 'youtube#playlist',
+      'etag': 'OvoTliEXmjNNYfq16QQQ6slTBoA',
+      'id': 'PLv_zOGKKxVpg7O0K5-jnqm74HKG9jDhJ-',
+      'snippet': {
+        'publishedAt': '2018-06-20T12:16:59Z',
+        'channelId': 'UC-OVMPlMA3-YCIeg4z5z23A',
+        'title': 'Евгений Ильин о desktop-приложениях на Python',
+        'description': 'Доклады Евгения Ильина (МАИ) о создании desktop-приложений на встречах MoscowPython.',
+        'thumbnails': {
+          'default': {
+            'url': 'https://i.ytimg.com/vi/nz6G_ta3of0/default.jpg',
+            'width': 120,
+            'height': 90
+          },
+          'medium': {
+            'url': 'https://i.ytimg.com/vi/nz6G_ta3of0/mqdefault.jpg',
+            'width': 320,
+            'height': 180
+          },
+          'high': {
+            'url': 'https://i.ytimg.com/vi/nz6G_ta3of0/hqdefault.jpg',
+            'width': 480,
+            'height': 360
+          }
+        },
+        'channelTitle': 'MoscowPython',
+        'localized': {
+          'title': 'Евгений Ильин о desktop-приложениях на Python',
+          'description': 'Доклады Евгения Ильина (МАИ) о создании desktop-приложений на встречах MoscowPython.'
+        }
+      },
+      'contentDetails': {
+        'itemCount': 3
+      }
+    },
+    {
+      'kind': 'youtube#playlist',
+      'etag': 'hJGWQsNmIV5jaqEwgtBqX_Drb2U',
+      'id': 'PLv_zOGKKxVpiWXDfsNCO_wYbOzcpC3qTk',
+      'snippet': {
+        'publishedAt': '2018-06-17T23:39:31Z',
+        'channelId': 'UC-OVMPlMA3-YCIeg4z5z23A',
+        'title': 'Moscow Python №56',
+        'description': 'Видео с Moscow Python Meetup 56 (22.05.2018). Слайды: http://www.moscowpython.ru/meetup/56/',
+        'thumbnails': {
+          'default': {
+            'url': 'https://i.ytimg.com/vi/eQkcP7_0qn8/default.jpg',
+            'width': 120,
+            'height': 90
+          },
+          'medium': {
+            'url': 'https://i.ytimg.com/vi/eQkcP7_0qn8/mqdefault.jpg',
+            'width': 320,
+            'height': 180
+          },
+          'high': {
+            'url': 'https://i.ytimg.com/vi/eQkcP7_0qn8/hqdefault.jpg',
+            'width': 480,
+            'height': 360
+          },
+          'standard': {
+            'url': 'https://i.ytimg.com/vi/eQkcP7_0qn8/sddefault.jpg',
+            'width': 640,
+            'height': 480
+          }
+        },
+        'channelTitle': 'MoscowPython',
+        'localized': {
+          'title': 'Moscow Python №56',
+          'description': 'Видео с Moscow Python Meetup 56 (22.05.2018). Слайды: http://www.moscowpython.ru/meetup/56/'
+        }
+      },
+      'contentDetails': {
+        'itemCount': 4
+      }
+    },
+    {
+      'kind': 'youtube#playlist',
+      'etag': 'Ot5fGawQDPqxLnrUVWpNJe9Hljg',
+      'id': 'PLv_zOGKKxVpiHZ14AzDVpjdLSmMn7r8qp',
+      'snippet': {
+        'publishedAt': '2018-05-08T01:16:21Z',
+        'channelId': 'UC-OVMPlMA3-YCIeg4z5z23A',
+        'title': 'Moscow Python №55',
+        'description': 'Видео с Moscow Python Meetup 55 (24.04.2018). Слайды: http://www.moscowpython.ru/meetup/55/',
+        'thumbnails': {
+          'default': {
+            'url': 'https://i.ytimg.com/vi/IrF8qKnrxZQ/default.jpg',
+            'width': 120,
+            'height': 90
+          },
+          'medium': {
+            'url': 'https://i.ytimg.com/vi/IrF8qKnrxZQ/mqdefault.jpg',
+            'width': 320,
+            'height': 180
+          },
+          'high': {
+            'url': 'https://i.ytimg.com/vi/IrF8qKnrxZQ/hqdefault.jpg',
+            'width': 480,
+            'height': 360
+          },
+          'standard': {
+            'url': 'https://i.ytimg.com/vi/IrF8qKnrxZQ/sddefault.jpg',
+            'width': 640,
+            'height': 480
+          },
+          'maxres': {
+            'url': 'https://i.ytimg.com/vi/IrF8qKnrxZQ/maxresdefault.jpg',
+            'width': 1280,
+            'height': 720
+          }
+        },
+        'channelTitle': 'MoscowPython',
+        'localized': {
+          'title': 'Moscow Python №55',
+          'description': 'Видео с Moscow Python Meetup 55 (24.04.2018). Слайды: http://www.moscowpython.ru/meetup/55/'
+        }
+      },
+      'contentDetails': {
+        'itemCount': 3
+      }
+    },
+    {
+      'kind': 'youtube#playlist',
+      'etag': 'BUA4I7lXHD19Qe3xLNPvXATd6Ds',
+      'id': 'PLv_zOGKKxVpi7jnaBuwwDkUwRx1zZJmpk',
+      'snippet': {
+        'publishedAt': '2018-04-07T21:58:53Z',
+        'channelId': 'UC-OVMPlMA3-YCIeg4z5z23A',
+        'title': 'Проекты выпускников Learn Python № 7',
+        'description': 'Презентации проектов выпускников 7-го набора Learn Python (03.02.2018). \nЗапись на курс: http://learn.python.ru',
+        'thumbnails': {
+          'default': {
+            'url': 'https://i.ytimg.com/vi/B252WUfhY_Y/default.jpg',
+            'width': 120,
+            'height': 90
+          },
+          'medium': {
+            'url': 'https://i.ytimg.com/vi/B252WUfhY_Y/mqdefault.jpg',
+            'width': 320,
+            'height': 180
+          },
+          'high': {
+            'url': 'https://i.ytimg.com/vi/B252WUfhY_Y/hqdefault.jpg',
+            'width': 480,
+            'height': 360
+          },
+          'standard': {
+            'url': 'https://i.ytimg.com/vi/B252WUfhY_Y/sddefault.jpg',
+            'width': 640,
+            'height': 480
+          },
+          'maxres': {
+            'url': 'https://i.ytimg.com/vi/B252WUfhY_Y/maxresdefault.jpg',
+            'width': 1280,
+            'height': 720
+          }
+        },
+        'channelTitle': 'MoscowPython',
+        'localized': {
+          'title': 'Проекты выпускников Learn Python № 7',
+          'description': 'Презентации проектов выпускников 7-го набора Learn Python (03.02.2018). \nЗапись на курс: http://learn.python.ru'
+        }
+      },
+      'contentDetails': {
+        'itemCount': 12
+      }
+    },
+    {
+      'kind': 'youtube#playlist',
+      'etag': 'd8b4MoEUvTbZRajdKKl6ZCYc3LE',
+      'id': 'PLv_zOGKKxVpgvJNvnsEK8roPG7NBNTnol',
+      'snippet': {
+        'publishedAt': '2018-04-07T20:56:35Z',
+        'channelId': 'UC-OVMPlMA3-YCIeg4z5z23A',
+        'title': 'Moscow Python №54',
+        'description': 'Видео с Moscow Python Meetup 54 (22.03.2018). Слайды: http://www.moscowpython.ru/meetup/54/',
+        'thumbnails': {
+          'default': {
+            'url': 'https://i.ytimg.com/vi/qY-BjTaeEtU/default.jpg',
+            'width': 120,
+            'height': 90
+          },
+          'medium': {
+            'url': 'https://i.ytimg.com/vi/qY-BjTaeEtU/mqdefault.jpg',
+            'width': 320,
+            'height': 180
+          },
+          'high': {
+            'url': 'https://i.ytimg.com/vi/qY-BjTaeEtU/hqdefault.jpg',
+            'width': 480,
+            'height': 360
+          },
+          'standard': {
+            'url': 'https://i.ytimg.com/vi/qY-BjTaeEtU/sddefault.jpg',
+            'width': 640,
+            'height': 480
+          },
+          'maxres': {
+            'url': 'https://i.ytimg.com/vi/qY-BjTaeEtU/maxresdefault.jpg',
+            'width': 1280,
+            'height': 720
+          }
+        },
+        'channelTitle': 'MoscowPython',
+        'localized': {
+          'title': 'Moscow Python №54',
+          'description': 'Видео с Moscow Python Meetup 54 (22.03.2018). Слайды: http://www.moscowpython.ru/meetup/54/'
+        }
+      },
+      'contentDetails': {
+        'itemCount': 3
+      }
+    },
+    {
+      'kind': 'youtube#playlist',
+      'etag': 't_XSEwu69mMr03ZzK1yBUF62LIs',
+      'id': 'PLv_zOGKKxVphSMrixGjzYFI08Z1eSnsFP',
+      'snippet': {
+        'publishedAt': '2018-03-08T14:00:07Z',
+        'channelId': 'UC-OVMPlMA3-YCIeg4z5z23A',
+        'title': 'Moscow Python №53',
+        'description': 'Видео с Moscow Python Meetup 53 (22.02.2018). Слайды: http://www.moscowpython.ru/meetup/53/',
+        'thumbnails': {
+          'default': {
+            'url': 'https://i.ytimg.com/vi/OjDAu2DCzt0/default.jpg',
+            'width': 120,
+            'height': 90
+          },
+          'medium': {
+            'url': 'https://i.ytimg.com/vi/OjDAu2DCzt0/mqdefault.jpg',
+            'width': 320,
+            'height': 180
+          },
+          'high': {
+            'url': 'https://i.ytimg.com/vi/OjDAu2DCzt0/hqdefault.jpg',
+            'width': 480,
+            'height': 360
+          },
+          'standard': {
+            'url': 'https://i.ytimg.com/vi/OjDAu2DCzt0/sddefault.jpg',
+            'width': 640,
+            'height': 480
+          },
+          'maxres': {
+            'url': 'https://i.ytimg.com/vi/OjDAu2DCzt0/maxresdefault.jpg',
+            'width': 1280,
+            'height': 720
+          }
+        },
+        'channelTitle': 'MoscowPython',
+        'localized': {
+          'title': 'Moscow Python №53',
+          'description': 'Видео с Moscow Python Meetup 53 (22.02.2018). Слайды: http://www.moscowpython.ru/meetup/53/'
+        }
+      },
+      'contentDetails': {
+        'itemCount': 3
+      }
+    },
+    {
+      'kind': 'youtube#playlist',
+      'etag': 'yGew9hKPoDu3lbNDV-85dAnE_JA',
+      'id': 'PLv_zOGKKxVphj-k38YAOxVDzTwFnERC28',
+      'snippet': {
+        'publishedAt': '2018-02-05T16:32:02Z',
+        'channelId': 'UC-OVMPlMA3-YCIeg4z5z23A',
+        'title': 'Moscow Python №52',
+        'description': 'Видео с Moscow Python Meetup 52 (24.01.2018). Слайды: http://www.moscowpython.ru/meetup/52/',
+        'thumbnails': {
+          'default': {
+            'url': 'https://i.ytimg.com/vi/lIkA0TDX8tE/default.jpg',
+            'width': 120,
+            'height': 90
+          },
+          'medium': {
+            'url': 'https://i.ytimg.com/vi/lIkA0TDX8tE/mqdefault.jpg',
+            'width': 320,
+            'height': 180
+          },
+          'high': {
+            'url': 'https://i.ytimg.com/vi/lIkA0TDX8tE/hqdefault.jpg',
+            'width': 480,
+            'height': 360
+          },
+          'standard': {
+            'url': 'https://i.ytimg.com/vi/lIkA0TDX8tE/sddefault.jpg',
+            'width': 640,
+            'height': 480
+          },
+          'maxres': {
+            'url': 'https://i.ytimg.com/vi/lIkA0TDX8tE/maxresdefault.jpg',
+            'width': 1280,
+            'height': 720
+          }
+        },
+        'channelTitle': 'MoscowPython',
+        'localized': {
+          'title': 'Moscow Python №52',
+          'description': 'Видео с Moscow Python Meetup 52 (24.01.2018). Слайды: http://www.moscowpython.ru/meetup/52/'
+        }
+      },
+      'contentDetails': {
+        'itemCount': 3
+      }
+    },
+    {
+      'kind': 'youtube#playlist',
+      'etag': '3jAENgavwp7WU9xcknkq5r4rz-4',
+      'id': 'PLv_zOGKKxVphNtkVLKAaf_msAmekZzDnz',
+      'snippet': {
+        'publishedAt': '2018-02-03T12:21:55Z',
+        'channelId': 'UC-OVMPlMA3-YCIeg4z5z23A',
+        'title': 'Проекты выпускников Learn Python № 6',
+        'description': 'Презентации проектов выпускников 6-го набора Learn Python (04.11.2017). \nЗапись на курс: http://learn.python.ru',
+        'thumbnails': {
+          'default': {
+            'url': 'https://i.ytimg.com/vi/6xLMhbyO_q4/default.jpg',
+            'width': 120,
+            'height': 90
+          },
+          'medium': {
+            'url': 'https://i.ytimg.com/vi/6xLMhbyO_q4/mqdefault.jpg',
+            'width': 320,
+            'height': 180
+          },
+          'high': {
+            'url': 'https://i.ytimg.com/vi/6xLMhbyO_q4/hqdefault.jpg',
+            'width': 480,
+            'height': 360
+          },
+          'standard': {
+            'url': 'https://i.ytimg.com/vi/6xLMhbyO_q4/sddefault.jpg',
+            'width': 640,
+            'height': 480
+          },
+          'maxres': {
+            'url': 'https://i.ytimg.com/vi/6xLMhbyO_q4/maxresdefault.jpg',
+            'width': 1280,
+            'height': 720
+          }
+        },
+        'channelTitle': 'MoscowPython',
+        'localized': {
+          'title': 'Проекты выпускников Learn Python № 6',
+          'description': 'Презентации проектов выпускников 6-го набора Learn Python (04.11.2017). \nЗапись на курс: http://learn.python.ru'
+        }
+      },
+      'contentDetails': {
+        'itemCount': 12
+      }
+    },
+    {
+      'kind': 'youtube#playlist',
+      'etag': 'ARmMwUn2hUIngR6HMedtiZCw0tA',
+      'id': 'PLv_zOGKKxVpji70hcXLgq9s7Ns3KvOfTZ',
+      'snippet': {
+        'publishedAt': '2018-01-29T16:02:07Z',
+        'channelId': 'UC-OVMPlMA3-YCIeg4z5z23A',
+        'title': 'Moscow Python №51',
+        'description': 'Видео с Moscow Python Meetup 51 (21.12.2017). Слайды: http://www.moscowpython.ru/meetup/51/',
+        'thumbnails': {
+          'default': {
+            'url': 'https://i.ytimg.com/vi/jKmWNGjUXhY/default.jpg',
+            'width': 120,
+            'height': 90
+          },
+          'medium': {
+            'url': 'https://i.ytimg.com/vi/jKmWNGjUXhY/mqdefault.jpg',
+            'width': 320,
+            'height': 180
+          },
+          'high': {
+            'url': 'https://i.ytimg.com/vi/jKmWNGjUXhY/hqdefault.jpg',
+            'width': 480,
+            'height': 360
+          },
+          'standard': {
+            'url': 'https://i.ytimg.com/vi/jKmWNGjUXhY/sddefault.jpg',
+            'width': 640,
+            'height': 480
+          },
+          'maxres': {
+            'url': 'https://i.ytimg.com/vi/jKmWNGjUXhY/maxresdefault.jpg',
+            'width': 1280,
+            'height': 720
+          }
+        },
+        'channelTitle': 'MoscowPython',
+        'localized': {
+          'title': 'Moscow Python №51',
+          'description': 'Видео с Moscow Python Meetup 51 (21.12.2017). Слайды: http://www.moscowpython.ru/meetup/51/'
+        }
+      },
+      'contentDetails': {
+        'itemCount': 4
+      }
+    },
+    {
+      'kind': 'youtube#playlist',
+      'etag': 'lYmKChYSLZxywg13XEYMDV7d4Gw',
+      'id': 'PLv_zOGKKxVpi1c7HBeY5iXgh_oCRRhn7N',
+      'snippet': {
+        'publishedAt': '2017-12-14T17:04:27Z',
+        'channelId': 'UC-OVMPlMA3-YCIeg4z5z23A',
+        'title': 'Moscow Python № 50',
+        'description': 'Видео с Moscow Python Meetup 50 (23.11.2017). Слайды: http://www.moscowpython.ru/meetup/50/',
+        'thumbnails': {
+          'default': {
+            'url': 'https://i.ytimg.com/vi/VLcMiyqgenI/default.jpg',
+            'width': 120,
+            'height': 90
+          },
+          'medium': {
+            'url': 'https://i.ytimg.com/vi/VLcMiyqgenI/mqdefault.jpg',
+            'width': 320,
+            'height': 180
+          },
+          'high': {
+            'url': 'https://i.ytimg.com/vi/VLcMiyqgenI/hqdefault.jpg',
+            'width': 480,
+            'height': 360
+          },
+          'standard': {
+            'url': 'https://i.ytimg.com/vi/VLcMiyqgenI/sddefault.jpg',
+            'width': 640,
+            'height': 480
+          },
+          'maxres': {
+            'url': 'https://i.ytimg.com/vi/VLcMiyqgenI/maxresdefault.jpg',
+            'width': 1280,
+            'height': 720
+          }
+        },
+        'channelTitle': 'MoscowPython',
+        'localized': {
+          'title': 'Moscow Python № 50',
+          'description': 'Видео с Moscow Python Meetup 50 (23.11.2017). Слайды: http://www.moscowpython.ru/meetup/50/'
+        }
+      },
+      'contentDetails': {
+        'itemCount': 3
+      }
+    },
+    {
+      'kind': 'youtube#playlist',
+      'etag': 'tHOh3Gmd4iFAZWX4-nUgvND87BM',
+      'id': 'PLv_zOGKKxVphKrkvrU4KuX4rMJVvPabfY',
+      'snippet': {
+        'publishedAt': '2017-11-04T18:37:44Z',
+        'channelId': 'UC-OVMPlMA3-YCIeg4z5z23A',
+        'title': 'Moscow Python Conf 2017 (Поток 2)',
+        'description': 'Видео 2-го потока Moscow Python Conf (20.10.2017) \nhttp://conf.python.ru',
+        'thumbnails': {
+          'default': {
+            'url': 'https://i.ytimg.com/vi/MfG9pvd1myg/default.jpg',
+            'width': 120,
+            'height': 90
+          },
+          'medium': {
+            'url': 'https://i.ytimg.com/vi/MfG9pvd1myg/mqdefault.jpg',
+            'width': 320,
+            'height': 180
+          },
+          'high': {
+            'url': 'https://i.ytimg.com/vi/MfG9pvd1myg/hqdefault.jpg',
+            'width': 480,
+            'height': 360
+          },
+          'standard': {
+            'url': 'https://i.ytimg.com/vi/MfG9pvd1myg/sddefault.jpg',
+            'width': 640,
+            'height': 480
+          },
+          'maxres': {
+            'url': 'https://i.ytimg.com/vi/MfG9pvd1myg/maxresdefault.jpg',
+            'width': 1280,
+            'height': 720
+          }
+        },
+        'channelTitle': 'MoscowPython',
+        'localized': {
+          'title': 'Moscow Python Conf 2017 (Поток 2)',
+          'description': 'Видео 2-го потока Moscow Python Conf (20.10.2017) \nhttp://conf.python.ru'
+        }
+      },
+      'contentDetails': {
+        'itemCount': 8
+      }
+    }
+  ]
+}

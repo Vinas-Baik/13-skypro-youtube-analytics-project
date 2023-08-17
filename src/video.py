@@ -166,29 +166,22 @@ class PlayList():
         # https://www.youtube.com/playlist?list=PLH-XmS0lSi_zdhYvcwUfv0N88LQRt6UZn
         # или из ответа API: см. playlists выше
         #
-        channel = youtube.playlists().list(channelId='UC-OVMPlMA3-YCIeg4z5z23A',
-                                     part='contentDetails,snippet',
-                                     maxResults=50).execute()
+        playlists = youtube.playlists().list(part="snippet",
+                                             id=self.id_playlist).execute()
+        # print(playlists)
 
-        # print(channel)
+        self.url = 'https://www.youtube.com/playlist?list=' + self.id_playlist
+        self.title = playlists['items'][0]['snippet']['title']
 
-        pl_ids: list[str] = [channel['snippet'] for channel in
-                                playlist_videos['items']
-                                if
-                                'videoPublishedAt' in video['contentDetails']]
         # self.view_count: int = channel['items'][0]['statistics']['viewCount']
         # self.subscriber_count: int = channel['items'][0]['statistics']['subscriberCount']
         # self.video_count: int = channel['items'][0]['statistics']['videoCount']
-
 
         playlist_videos = youtube.playlistItems().list(playlistId=self.id_playlist,
                                                        part='snippet,contentDetails',
                                                        maxResults=100,
                                                        ).execute()
         # printj(playlist_videos)
-
-        self.url = 'https://www.youtube.com/playlist?list='+self.id_playlist
-        self.title = playlist_videos['items'][0]['snippet']['channelTitle']
 
         # получить все id видеороликов из плейлиста
         video_ids: list[str] = [video['contentDetails']['videoId'] for video in
@@ -255,7 +248,7 @@ class PlayList():
 # print(temp_video.view_count)
 # print(temp_video.like_count)
 #
-# pl = PlayList('PL5qhgSQBDXldIWeTQrF1Eq5VGe_ZkJR1i')
+# pl = PlayList('PL8en1oPkR5-hPP8RotkI0fLZkCah5fPMj')
 # print(pl.my_repr())
 # print(pl.total_duration)
 # print(pl.show_best_video())
