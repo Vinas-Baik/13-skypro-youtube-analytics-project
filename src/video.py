@@ -67,7 +67,7 @@ class Video(Videos):
         #
         video_response = youtube.videos().list(part='snippet,statistics,contentDetails,topicDetails',
                                                id=self.id_video).execute()
-        # printj(video_response)
+        printj(video_response)
         response_video = video_response['items'][0]
         self.title: str = response_video['snippet']['title']
         self.url: str = 'https://www.youtube.com/watch?v=' + response_video['id']
@@ -167,12 +167,11 @@ class PlayList():
         # или из ответа API: см. playlists выше
         #
         playlist_videos = youtube.playlistItems().list(playlistId=self.id_playlist,
-                                                       part='id,contentDetails,snippet,status',
+                                                       part='snippet,contentDetails',
                                                        maxResults=100,
                                                        ).execute()
         printj(playlist_videos)
-        self.url = 'https://www.youtube.com/playlist?list='+ \
-                   playlist_videos['items'][0]['snippet']['playlistId']
+        self.url = 'https://www.youtube.com/playlist?list='+self.id_playlist
         self.title = playlist_videos['items'][0]['snippet']['channelTitle']
 
 
@@ -242,9 +241,9 @@ class PlayList():
 # print(temp_video.view_count)
 # print(temp_video.like_count)
 #
-# pl = PlayList('PLZ_AMw_dAdXffKmUzSu7Z3vkqP4Sz9qL5')
-# print(pl.my_repr())
-# print(pl.total_duration)
-# print(pl.show_best_video())
-# for i in pl.video_pls:
-#     print(i)
+pl = PlayList('PL5qhgSQBDXldIWeTQrF1Eq5VGe_ZkJR1i')
+print(pl.my_repr())
+print(pl.total_duration)
+print(pl.show_best_video())
+for i in pl.video_pls:
+    print(i)
