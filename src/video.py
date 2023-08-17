@@ -1,5 +1,9 @@
 import os
 import json
+from datetime import timedelta
+
+import isodate as isodate
+
 from googleapiclient.discovery import build
 
 YT_API_KEY: str = os.getenv('YT_API_KEY')
@@ -140,6 +144,7 @@ class PlayList():
         self.__id_playlist = id_playlist
         self.video_pls = []
         self.load_video_yt()
+        self.__total_duration = self.total_duration
 
     @property
     def id_playlist(self):
@@ -148,6 +153,7 @@ class PlayList():
     @id_playlist.setter
     def id_playlist(self, new_id: str):
         pass
+
 
     def load_video_yt(self):
         youtube = build('youtube', 'v3', developerKey=YT_API_KEY)
@@ -161,10 +167,10 @@ class PlayList():
         # или из ответа API: см. playlists выше
         #
         playlist_videos = youtube.playlistItems().list(playlistId=self.id_playlist,
-                                                       part='contentDetails,snippet',
+                                                       part='id,contentDetails,snippet,status',
                                                        maxResults=100,
                                                        ).execute()
-        # printj(playlist_videos)
+        printj(playlist_videos)
         self.url = 'https://www.youtube.com/playlist?list='+ \
                    playlist_videos['items'][0]['snippet']['playlistId']
         self.title = playlist_videos['items'][0]['snippet']['channelTitle']
@@ -178,7 +184,16 @@ class PlayList():
         video_response = youtube.videos().list(part='contentDetails,statistics',
                                                id=','.join(video_ids)).execute()
         for t_video in video_response['items']:
-            print(t_video)
+            # print(t_video)
+            # YouTube video duration is in ISO 8601 format
+            # isodate.parse_duration(t_video['contentDetails']['duration'] - команда
+            # которая преобразует длительность ролика из   ISO 8601 format в datatime.timedelta
+            self.video_pls.append({'id': t_video['id'],
+                                   'duration': isodate.parse_duration(t_video['contentDetails']['duration']),
+                                   'viewCount': int(t_video['statistics']['viewCount']),
+                                   'likeCount': int(t_video['statistics']['likeCount']),
+                                   'commentCount': int(t_video['statistics']['commentCount']),
+                                   'video_el': Video(t_video['id'])})
         # for temp_video in video_ids:
         #     self.video_pls.append(Video(temp_video))
 
@@ -192,8 +207,24 @@ class PlayList():
     def __len__(self):
         return len(self.video_pls)
 
+    @property
     def total_duration(self):
-        pass
+        result = timedelta(hours=0,  minutes=0, seconds=0, microseconds=0,
+                           milliseconds=0, days=0, weeks=0)
+        for video in self.video_pls:
+            result += video['duration']
+        return result
+
+    def show_best_video(self):
+        url_video = ''
+        max_likeCount = 0
+        for video in self.video_pls:
+            if max_likeCount < video['likeCount']:
+                max_likeCount = video['likeCount']
+                url_video = video['video_el'].url
+        return url_video
+
+
 
 # video2 = PLVideo('4fObz_qw9u4', 'PLv_zOGKKxVph_8g2Mqc3LMhj0M_BfasbC')
 # print(video2)
@@ -210,8 +241,10 @@ class PlayList():
 # temp_video = video1 + video2
 # print(temp_video.view_count)
 # print(temp_video.like_count)
-
-pl = PlayList('PLZ_AMw_dAdXffKmUzSu7Z3vkqP4Sz9qL5')
-print(pl.my_repr())
+#
+# pl = PlayList('PLZ_AMw_dAdXffKmUzSu7Z3vkqP4Sz9qL5')
+# print(pl.my_repr())
+# print(pl.total_duration)
+# print(pl.show_best_video())
 # for i in pl.video_pls:
 #     print(i)
