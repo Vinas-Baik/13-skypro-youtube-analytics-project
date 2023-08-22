@@ -13,6 +13,14 @@ def printj(dict_to_print: dict) -> None:
     """Выводит словарь в json-подобном удобном формате с отступами"""
     print(json.dumps(dict_to_print, indent=2, ensure_ascii=False))
 
+class YTError(Exception):
+
+    def __init__(self, *args, **kwargs):
+        self.message = args[0] if args else 'Видео не существуетк'
+
+    def __str__(self):
+        return self.message
+
 
 class Videos():
     def __init__(self, id_video: str):
@@ -54,10 +62,19 @@ class Video(Videos):
 
     def __init__(self, id_video: str):
         super().__init__(id_video)
-        self.load_video_yt()
+        try:
+            self.load_video_yt()
+        except YTError as t_err:
+            self.title = None
+            self.url = None
+            self.like_count = None
+            self.view_count = None
+
+
 
     def load_video_yt(self):
         youtube = build('youtube', 'v3', developerKey=YT_API_KEY)
+        # print(youtube)
         # self.youtube_str = str(youtube)
         #
         # получить статистику видео по его id
@@ -67,7 +84,10 @@ class Video(Videos):
         #
         video_response = youtube.videos().list(part='snippet,statistics,contentDetails,topicDetails',
                                                id=self.id_video).execute()
-        # printj(video_response)
+        # print(video_response)
+        if video_response['items'] == []:
+            raise YTError
+
         response_video = video_response['items'][0]
         self.title: str = response_video['snippet']['title']
         self.url: str = 'https://www.youtube.com/watch?v=' + response_video['id']
